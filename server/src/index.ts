@@ -17,7 +17,7 @@ import { supportResistanceRouter } from './routes/supportResistance.js'
 import { visionRouter } from './routes/vision.js'
 
 const app = express()
-const dataMode: DataMode = config.demoMode ? 'simulated' : hasMarketData() ? 'real' : 'unavailable'
+const dataMode: DataMode = hasMarketData() && !config.demoMode ? 'real' : 'simulated'
 
 app.use(cors({ origin: config.clientOrigin, credentials: false }))
 app.use(express.json({ limit: '1mb' }))
@@ -79,8 +79,8 @@ const invokedDirectly = process.argv[1]
 if (invokedDirectly && process.env.VERCEL !== '1') {
   app.listen(config.port, () => {
     console.log(`AG BOT API listening on http://localhost:${config.port}`)
-    console.log(`Data mode: ${dataMode.toUpperCase()}${config.demoMode ? ' — simulated educational data only' : ''}`)
-    console.log(`Market data: ${hasMarketData() ? 'configured' : 'NOT configured (no prices will be shown)'}`)
+    console.log(`Data mode: ${dataMode.toUpperCase()}${dataMode === 'simulated' ? ' — simulated educational data' : ''}`)
+    console.log(`Market data: ${hasMarketData() ? 'configured' : 'NOT configured (using simulated demo data; set TWELVEDATA_API_KEY for live prices)'}`)
     console.log(`AI service: ${hasLlm() ? `configured (${llmProvider()})` : 'NOT configured (deterministic analysis only)'}`)
     console.log(`Vision AI: ${hasVision() ? `configured (${config.visionModel})` : 'NOT configured (set VISION_MODEL to a vision-capable model)'}`)
   })

@@ -114,8 +114,9 @@ export function demoCandles(symbol: string, interval: Interval): { candles: Cand
 }
 
 async function requestCandles(symbol: string, interval: Interval): Promise<MarketPayload> {
-  if (config.demoMode) {
+  if (config.demoMode || !hasMarketData()) {
     const { candles, direction } = demoCandles(symbol, interval)
+    const autoFallback = !config.demoMode && !hasMarketData()
     return {
       symbol,
       interval,
@@ -123,21 +124,10 @@ async function requestCandles(symbol: string, interval: Interval): Promise<Marke
       status: 'simulated',
       lastUpdated: new Date(candles[candles.length - 1].time * 1000).toISOString(),
       volumeAvailable: false,
-      reason: `SIMULATED DEMO DATA — a locally generated ${direction} trend for educational testing. These are NOT real market prices.`,
+      reason: autoFallback
+        ? `SIMULATED DEMO DATA — TWELVEDATA_API_KEY is not configured, so a locally generated ${direction} trend is shown for educational practice. These are NOT real market prices. Add TWELVEDATA_API_KEY for live data.`
+        : `SIMULATED DEMO DATA — a locally generated ${direction} trend for educational testing. These are NOT real market prices.`,
       source: 'AG BOT demo generator (simulated)',
-    }
-  }
-
-  if (!hasMarketData()) {
-    return {
-      symbol,
-      interval,
-      candles: [],
-      status: 'unavailable',
-      lastUpdated: null,
-      volumeAvailable: false,
-      reason: 'TWELVEDATA_API_KEY is not configured on the server. No prices are shown until a real data provider is connected.',
-      source: 'Twelve Data',
     }
   }
 

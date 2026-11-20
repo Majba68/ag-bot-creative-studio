@@ -534,10 +534,29 @@ export function HorrorVisionTracking() {
         setProgress({ done: index, total: effectiveCount, stage: `Reading frame ${index + 1} of ${effectiveCount}` })
         const extracted = await extractFrame(extractor, time, index)
         const file = new File([extracted.blob], `frame-${index + 1}.jpg`, { type: 'image/jpeg' })
-        const response = await api.horrorTrackingFrame(file, index, time)
-        if (!response.available || !response.result) {
-          throw new Error(response.error || `Frame ${index + 1} could not be analyzed.`)
+
+        let response: Awaited<ReturnType<typeof api.horrorTrackingFrame>> | null = null
+        let frameError = `Frame ${index + 1} could not be analyzed.`
+        for (let attempt = 0; attempt < 3; attempt++) {
+          if (attempt > 0) {
+            setProgress({ done: index, total: effectiveCount, stage: `Retrying frame ${index + 1} of ${effectiveCount}` })
+            await new Promise((resolve) => setTimeout(resolve, 1200 * attempt))
+          }
+          try {
+            const candidate = await api.horrorTrackingFrame(file, index, time)
+            if (candidate.available && candidate.result) {
+              response = candidate
+              break
+            }
+            frameError = candidate.error || frameError
+          } catch (cause) {
+            frameError = cause instanceof Error ? cause.message : frameError
+          }
         }
+        if (!response?.available || !response.result) {
+          throw new Error(frameError)
+        }
+
         collected.push({
           index,
           timeSec: response.result.timeSec,

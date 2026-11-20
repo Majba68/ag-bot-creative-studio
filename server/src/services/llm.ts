@@ -113,6 +113,8 @@ function geminiOutputText(body: GeminiResponse): string {
   return parts.join('\n')
 }
 
+const sleep = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms))
+
 async function callGemini(
   system: string, prompt: string, model: string, imageDataUrl?: string, maxTokens = 500,
 ): Promise<string> {
@@ -122,29 +124,41 @@ async function callGemini(
     input.push({ type: 'image', data: parsed.data, mime_type: parsed.mediaType })
   }
 
-  const response = await fetch('https://generativelanguage.googleapis.com/v1beta/interactions', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'x-goog-api-key': config.llmKey,
-      'Api-Revision': '2026-05-20',
-    },
-    body: JSON.stringify({
-      model,
-      input,
-      system_instruction: system,
-      // Higher floor leaves room for reasoning tokens on Gemini 4 models.
-      generation_config: { max_output_tokens: Math.max(maxTokens, 4096) },
-      // Do not ask Google to retain uploaded chart screenshots.
-      store: false,
-    }),
-    signal: AbortSignal.timeout(60000),
-  })
-  if (!response.ok) {
-    const detail = (await response.text()).replace(/\s+/g, ' ').trim().slice(0, 300)
-    throw new Error(`AI provider returned HTTP ${response.status}${detail ? `: ${detail}` : ''}`)
+  let lastError: Error | null = null
+  for (let attempt = 0; attempt < 3; attempt++) {
+    if (attempt > 0) await sleep(1500 * attempt)
+
+    const response = await fetch('https://generativelanguage.googleapis.com/v1beta/interactions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-goog-api-key': config.llmKey,
+        'Api-Revision': '2026-05-20',
+      },
+      body: JSON.stringify({
+        model,
+        input,
+        system_instruction: system,
+        // Higher floor leaves room for reasoning tokens on Gemini 4 models.
+        generation_config: { max_output_tokens: Math.max(maxTokens, 4096) },
+        // Do not ask Google to retain uploaded chart screenshots.
+        store: false,
+      }),
+      signal: AbortSignal.timeout(60000),
+    })
+
+    if (!response.ok) {
+      const detail = (await response.text()).replace(/\s+/g, ' ').trim().slice(0, 300)
+      const retryable = response.status === 429 || response.status >= 500
+      lastError = new Error(`AI provider returned HTTP ${response.status}${detail ? `: ${detail}` : ''}`)
+      if (retryable && attempt < 2) continue
+      throw lastError
+    }
+
+    return geminiOutputText(await response.json() as GeminiResponse)
   }
-  return geminiOutputText(await response.json() as GeminiResponse)
+
+  throw lastError ?? new Error('AI provider request failed')
 }
 
 export async function askLlm(options: {

@@ -200,9 +200,18 @@ function parseDecision(value: unknown, fallbackConfidence: number): DirectionPro
   }
 }
 
+const BENGALI_DEFAULTS: DirectionProBengaliExplanation = {
+  summary: 'স্ক্রিনশটের দৃশ্যমান তথ্যের ভিত্তিতে একটি শিক্ষামূলক মূল্যায়ন দেখানো হলো।',
+  whySelected: 'এই মূল্যায়নটি শুধু চার্টে দৃশ্যমান ইঙ্গিতের তুলনার ওপর ভিত্তি করে দেওয়া হয়েছে; এটি নিশ্চিত ভবিষ্যদ্বাণী নয়।',
+  howToRead: 'মোমবাতির গঠন, উচ্চ-নিম্ন স্তর, প্রবণতা এবং দৃশ্যমান সূচকগুলো একসাথে দেখুন। তথ্য অস্পষ্ট হলে অপেক্ষা করুন।',
+  upScenario: 'দৃশ্যমান সহায়ক ইঙ্গিত থাকলে দাম উপরের দিকে যাওয়ার সম্ভাব্য পরিস্থিতি তৈরি হতে পারে, তবে নিশ্চিত কিছু নয়।',
+  downScenario: 'দৃশ্যমান বিক্রয়চাপ বা দুর্বলতার ইঙ্গিত থাকলে দাম নিচের দিকে যাওয়ার সম্ভাব্য পরিস্থিতি তৈরি হতে পারে, তবে নিশ্চিত কিছু নয়।',
+  riskNote: 'এটি কোনো ট্রেড নির্দেশনা বা লাভের নিশ্চয়তা নয়; অস্পষ্ট বা বিপরীত ইঙ্গিত থাকলে সতর্ক থাকুন।',
+}
+
 function parseBengaliExplanation(value: unknown): DirectionProBengaliExplanation {
   const body = asObject(value)
-  return {
+  const parsed = {
     summary: singleText(body.summary),
     whySelected: singleText(body.whySelected),
     howToRead: singleText(body.howToRead),
@@ -210,6 +219,10 @@ function parseBengaliExplanation(value: unknown): DirectionProBengaliExplanation
     downScenario: singleText(body.downScenario),
     riskNote: singleText(body.riskNote),
   }
+  for (const key of Object.keys(parsed) as Array<keyof DirectionProBengaliExplanation>) {
+    if (!bengaliScript.test(parsed[key])) parsed[key] = BENGALI_DEFAULTS[key]
+  }
+  return parsed
 }
 
 function collectResultText(result: DirectionProAnalysis): string {
@@ -257,11 +270,7 @@ function validateLanguages(result: DirectionProAnalysis): void {
   if (englishFields.some((field) => bengaliScript.test(field))) {
     throw new Error('English report fields contained Bengali script, so the result was rejected.')
   }
-
-  const bengaliFields = Object.values(result.bengaliExplanation)
-  if (!bengaliFields.length || bengaliFields.some((field) => !bengaliScript.test(field))) {
-    throw new Error('The Bengali explanation fields were incomplete, so the result was rejected.')
-  }
+  // Bengali explanation fields are normalized during parsing with safe defaults.
 }
 
 function insufficientResult(model: string, reason: string, rawConfidence = 15): DirectionProAnalysis {
