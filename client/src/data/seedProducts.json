@@ -10,9 +10,9 @@
     "description": "Designed for layered weekends, the Atelier Wool Overcoat uses 80% wool, 20% cashmere and precise topstitching to create a understated presence piece. TRAPO Sport adds a relaxed silhouette and a slate palette that stays in rotation.",
     "shortDescription": "Atelier Wool Overcoat: a considered wardrobe staple in slate.",
     "images": [
-      "/products/TRP-CL-001-main.svg",
-      "/products/TRP-CL-001-detail.svg",
-      "/products/TRP-CL-001-lifestyle.svg"
+      "products/TRP-CL-001-main.svg",
+      "products/TRP-CL-001-detail.svg",
+      "products/TRP-CL-001-lifestyle.svg"
     ],
     "colors": [
       {
@@ -91,9 +91,9 @@
     "description": "The Draper Cashmere Blazer brings brushed cashmere blend to studio days with precise topstitching. Finished by TRAPO Heritage in navy, it pairs quiet refinement with a relaxed silhouette.",
     "shortDescription": "Draper Cashmere Blazer: an easy everyday essential in navy.",
     "images": [
-      "/products/TRP-CL-002-main.svg",
-      "/products/TRP-CL-002-detail.svg",
-      "/products/TRP-CL-002-lifestyle.svg"
+      "products/TRP-CL-002-main.svg",
+      "products/TRP-CL-002-detail.svg",
+      "products/TRP-CL-002-lifestyle.svg"
     ],
     "colors": [
       {
@@ -164,9 +164,9 @@
     "description": "Designed for the commute, the Merino Ribbed Sweater uses extra-fine merino wool and a refined natural hand feel to create a effortless polish piece. TRAPO Studio adds an easy fit and a oxblood palette that stays in rotation.",
     "shortDescription": "Merino Ribbed Sweater: a quietly tailored layer in oxblood.",
     "images": [
-      "/products/TRP-CL-003-main.svg",
-      "/products/TRP-CL-003-detail.svg",
-      "/products/TRP-CL-003-lifestyle.svg"
+      "products/TRP-CL-003-main.svg",
+      "products/TRP-CL-003-detail.svg",
+      "products/TRP-CL-003-lifestyle.svg"
     ],
     "colors": [
       {
@@ -239,9 +239,9 @@
     "description": "TRAPO Atelier crafted the Oxford Poplin Shirt from long-staple cotton poplin with a refined natural hand feel. The result is a understated presence piece for studio days, finished with a precise cut and charcoal tones.",
     "shortDescription": "Oxford Poplin Shirt: an easy everyday essential in charcoal.",
     "images": [
-      "/products/TRP-CL-004-main.svg",
-      "/products/TRP-CL-004-detail.svg",
-      "/products/TRP-CL-004-lifestyle.svg"
+      "products/TRP-CL-004-main.svg",
+      "products/TRP-CL-004-detail.svg",
+      "products/TRP-CL-004-lifestyle.svg"
     ],
     "colors": [
       {
@@ -315,9 +315,9 @@
     "description": "Designed for layered weekends, the Tailored Trench Coat uses cotton-gabardine with storm flap and precise topstitching to create a understated presence piece. TRAPO Sport adds a relaxed silhouette and a forest palette that stays in rotation.",
     "shortDescription": "Tailored Trench Coat: an easy everyday essential in forest.",
     "images": [
-      "/products/TRP-CL-005-main.svg",
-      "/products/TRP-CL-005-detail.svg",
-      "/products/TRP-CL-005-lifestyle.svg"
+      "products/TRP-CL-005-main.svg",
+      "products/TRP-CL-005-detail.svg",
+      "products/TRP-CL-005-lifestyle.svg"
     ],
     "colors": [
       {
@@ -387,9 +387,9 @@
     "description": "The Studio Relaxed Hoodie brings heavyweight loopback cotton to long evenings out with hand-finished seams. Finished by TRAPO Studio in navy, it pairs effortless polish with a precise cut.",
     "shortDescription": "Studio Relaxed Hoodie: a quietly tailored layer in navy.",
     "images": [
-      "/products/TRP-CL-006-main.svg",
-      "/products/TRP-CL-006-detail.svg",
-      "/products/TRP-CL-006-lifestyle.svg"
+      "products/TRP-CL-006-main.svg",
+      "products/TRP-CL-006-detail.svg",
+      "products/TRP-CL-006-lifestyle.svg"
     ],
     "colors": [
       {
@@ -467,9 +467,9 @@
     "description": "Designed for layered weekends, the Pleated Wool Trousers uses virgin wool with a soft drape and a refined natural hand feel to create a understated presence piece. TRAPO Atelier adds an easy fit and a navy palette that stays in rotation.",
     "shortDescription": "Pleated Wool Trousers: an easy everyday essential in navy.",
     "images": [
-      "/products/TRP-CL-007-main.svg",
-      "/products/TRP-CL-007-detail.svg",
-      "/products/TRP-CL-007-lifestyle.svg"
+      "products/TRP-CL-007-main.svg",
+      "products/TRP-CL-007-detail.svg",
+      "products/TRP-CL-007-lifestyle.svg"
     ],
     "colors": [
       {
@@ -540,9 +540,9 @@
     "description": "The Silk Charmeuse Blouse brings silk charmeuse with a matte sheen to layered weekends with a refined natural hand feel. Finished by TRAPO Studio in ivory, it pairs understated presence with a precise cut.",
     "shortDescription": "Silk Charmeuse Blouse: an easy everyday essential in ivory.",
     "images": [
-      "/products/TRP-CL-008-main.svg",
-      "/products/TRP-CL-008-detail.svg",
-      "/products/TRP-CL-008-lifestyle.svg"
+      "products/TRP-CL-008-main.svg",
+      "products/TRP-CL-008-detail.svg",
+      "products/TRP-CL-008-lifestyle.svg"
     ],
     "colors": [
       {
@@ -619,9 +619,9 @@
     "description": "The Heritage Quilted Jacket brings waxed cotton with diamond quilting to long evenings out with a softly structured drape. Finished by TRAPO Sport in ivory, it pairs quiet refinement with a precise cut.",
     "shortDescription": "Heritage Quilted Jacket: a quietly tailored layer in ivory.",
     "images": [
-      "/products/TRP-CL-009-main.svg",
-      "/products/TRP-CL-009-detail.svg",
-      "/products/TRP-CL-009-lifestyle.svg"
+      "products/TRP-CL-009-main.svg",
+      "products/TRP-CL-009-detail.svg",
+      "products/TRP-CL-009-lifestyle.svg"
     ],
     "colors": [
       {
@@ -695,9 +695,9 @@
     "description": "TRAPO Atelier crafted the Novak Merino Cardigan from merino wool with ribbed trim with a refined natural hand feel. The result is a quiet refinement piece for layered weekends, finished with an easy fit and slate tones.",
     "shortDescription": "Novak Merino Cardigan: an easy everyday essential in slate.",
     "images": [
-      "/products/TRP-CL-010-main.svg",
-      "/products/TRP-CL-010-detail.svg",
-      "/products/TRP-CL-010-lifestyle.svg"
+      "products/TRP-CL-010-main.svg",
+      "products/TRP-CL-010-detail.svg",
+      "products/TRP-CL-010-lifestyle.svg"
     ],
     "colors": [
       {
@@ -777,9 +777,9 @@
     "description": "TRAPO Atelier crafted the Sculpted Midi Dress from compact wool-viscose crepe with precise topstitching. The result is a effortless polish piece for studio days, finished with an easy fit and charcoal tones.",
     "shortDescription": "Sculpted Midi Dress: a considered wardrobe staple in charcoal.",
     "images": [
-      "/products/TRP-CL-011-main.svg",
-      "/products/TRP-CL-011-detail.svg",
-      "/products/TRP-CL-011-lifestyle.svg"
+      "products/TRP-CL-011-main.svg",
+      "products/TRP-CL-011-detail.svg",
+      "products/TRP-CL-011-lifestyle.svg"
     ],
     "colors": [
       {
@@ -850,9 +850,9 @@
     "description": "TRAPO Heritage crafted the Linen Camp Shirt from washed European linen with a refined natural hand feel. The result is a quiet refinement piece for the commute, finished with a relaxed silhouette and camel tones.",
     "shortDescription": "Linen Camp Shirt: a quietly tailored layer in camel.",
     "images": [
-      "/products/TRP-CL-012-main.svg",
-      "/products/TRP-CL-012-detail.svg",
-      "/products/TRP-CL-012-lifestyle.svg"
+      "products/TRP-CL-012-main.svg",
+      "products/TRP-CL-012-detail.svg",
+      "products/TRP-CL-012-lifestyle.svg"
     ],
     "colors": [
       {
@@ -921,9 +921,9 @@
     "description": "The Technical Shell Anorak brings recycled nylon ripstop to the commute with precise topstitching. Finished by TRAPO Heritage in camel, it pairs effortless polish with an easy fit.",
     "shortDescription": "Technical Shell Anorak: a quietly tailored layer in camel.",
     "images": [
-      "/products/TRP-CL-013-main.svg",
-      "/products/TRP-CL-013-detail.svg",
-      "/products/TRP-CL-013-lifestyle.svg"
+      "products/TRP-CL-013-main.svg",
+      "products/TRP-CL-013-detail.svg",
+      "products/TRP-CL-013-lifestyle.svg"
     ],
     "colors": [
       {
@@ -1000,9 +1000,9 @@
     "description": "TRAPO Atelier crafted the Alpaca Knit Vest from brushed baby alpaca blend with a softly structured drape. The result is a quiet refinement piece for the commute, finished with a precise cut and ochre tones.",
     "shortDescription": "Alpaca Knit Vest: a considered wardrobe staple in ochre.",
     "images": [
-      "/products/TRP-CL-014-main.svg",
-      "/products/TRP-CL-014-detail.svg",
-      "/products/TRP-CL-014-lifestyle.svg"
+      "products/TRP-CL-014-main.svg",
+      "products/TRP-CL-014-detail.svg",
+      "products/TRP-CL-014-lifestyle.svg"
     ],
     "colors": [
       {
@@ -1077,9 +1077,9 @@
     "description": "Designed for city days, the Corsica Leather Sneaker uses full-grain Italian leather and clean welt stitching to create a considered craft pair. TRAPO Atelier adds a true-to-size fit and a sand palette that stays in rotation.",
     "shortDescription": "Corsica Leather Sneaker: a refined everyday step in sand.",
     "images": [
-      "/products/TRP-SH-001-main.svg",
-      "/products/TRP-SH-001-detail.svg",
-      "/products/TRP-SH-001-lifestyle.svg"
+      "products/TRP-SH-001-main.svg",
+      "products/TRP-SH-001-detail.svg",
+      "products/TRP-SH-001-lifestyle.svg"
     ],
     "colors": [
       {
@@ -1153,9 +1153,9 @@
     "description": "Designed for daily wear, the Atelier Chelsea Boot uses calfskin with elastic gores and a softly burnished finish to create a considered craft pair. TRAPO Labs adds a streamlined shape and a sand palette that stays in rotation.",
     "shortDescription": "Atelier Chelsea Boot: a versatile wardrobe companion in sand.",
     "images": [
-      "/products/TRP-SH-002-main.svg",
-      "/products/TRP-SH-002-detail.svg",
-      "/products/TRP-SH-002-lifestyle.svg"
+      "products/TRP-SH-002-main.svg",
+      "products/TRP-SH-002-detail.svg",
+      "products/TRP-SH-002-lifestyle.svg"
     ],
     "colors": [
       {
@@ -1230,9 +1230,9 @@
     "description": "Designed for dinner plans, the Porto Suede Loafer uses soft suede with a leather lining and a cushioned footbed to create a all-day comfort pair. TRAPO Sport adds a streamlined shape and a cognac palette that stays in rotation.",
     "shortDescription": "Porto Suede Loafer: a refined everyday step in cognac.",
     "images": [
-      "/products/TRP-SH-003-main.svg",
-      "/products/TRP-SH-003-detail.svg",
-      "/products/TRP-SH-003-lifestyle.svg"
+      "products/TRP-SH-003-main.svg",
+      "products/TRP-SH-003-detail.svg",
+      "products/TRP-SH-003-lifestyle.svg"
     ],
     "colors": [
       {
@@ -1308,9 +1308,9 @@
     "description": "The Meridian Derby Shoe brings burnished calf leather to slow weekends with a softly burnished finish. Finished by TRAPO Atelier in sand, it pairs considered craft with a generous toe box.",
     "shortDescription": "Meridian Derby Shoe: a versatile wardrobe companion in sand.",
     "images": [
-      "/products/TRP-SH-004-main.svg",
-      "/products/TRP-SH-004-detail.svg",
-      "/products/TRP-SH-004-lifestyle.svg"
+      "products/TRP-SH-004-main.svg",
+      "products/TRP-SH-004-detail.svg",
+      "products/TRP-SH-004-lifestyle.svg"
     ],
     "colors": [
       {
@@ -1388,9 +1388,9 @@
     "description": "Designed for dinner plans, the Studio Runner uses engineered mesh and suede and a cushioned footbed to create a all-day comfort pair. TRAPO Labs adds a streamlined shape and a cream palette that stays in rotation.",
     "shortDescription": "Studio Runner: a quietly polished profile in cream.",
     "images": [
-      "/products/TRP-SH-005-main.svg",
-      "/products/TRP-SH-005-detail.svg",
-      "/products/TRP-SH-005-lifestyle.svg"
+      "products/TRP-SH-005-main.svg",
+      "products/TRP-SH-005-detail.svg",
+      "products/TRP-SH-005-lifestyle.svg"
     ],
     "colors": [
       {
@@ -1466,9 +1466,9 @@
     "description": "Designed for slow weekends, the Terra Leather Sandal uses vegetable-tanned leather and a cushioned footbed to create a considered craft pair. TRAPO Atelier adds a streamlined shape and a cream palette that stays in rotation.",
     "shortDescription": "Terra Leather Sandal: a refined everyday step in cream.",
     "images": [
-      "/products/TRP-SH-006-main.svg",
-      "/products/TRP-SH-006-detail.svg",
-      "/products/TRP-SH-006-lifestyle.svg"
+      "products/TRP-SH-006-main.svg",
+      "products/TRP-SH-006-detail.svg",
+      "products/TRP-SH-006-lifestyle.svg"
     ],
     "colors": [
       {
@@ -1548,9 +1548,9 @@
     "description": "TRAPO Heritage crafted the Nocturne Heeled Ankle Boot from smooth calfskin with a leather sole with a softly burnished finish. The result is a considered craft pair for slow weekends, finished with a generous toe box and cognac tones.",
     "shortDescription": "Nocturne Heeled Ankle Boot: a refined everyday step in cognac.",
     "images": [
-      "/products/TRP-SH-007-main.svg",
-      "/products/TRP-SH-007-detail.svg",
-      "/products/TRP-SH-007-lifestyle.svg"
+      "products/TRP-SH-007-main.svg",
+      "products/TRP-SH-007-detail.svg",
+      "products/TRP-SH-007-lifestyle.svg"
     ],
     "colors": [
       {
@@ -1626,9 +1626,9 @@
     "description": "TRAPO Studio crafted the Court Classic Tennis Shoe from soft-grain leather and canvas with a cushioned footbed. The result is a considered craft pair for slow weekends, finished with a true-to-size fit and olive tones.",
     "shortDescription": "Court Classic Tennis Shoe: a refined everyday step in olive.",
     "images": [
-      "/products/TRP-SH-008-main.svg",
-      "/products/TRP-SH-008-detail.svg",
-      "/products/TRP-SH-008-lifestyle.svg"
+      "products/TRP-SH-008-main.svg",
+      "products/TRP-SH-008-detail.svg",
+      "products/TRP-SH-008-lifestyle.svg"
     ],
     "colors": [
       {
@@ -1703,9 +1703,9 @@
     "description": "TRAPO Labs crafted the Alpine Suede Chukka from water-resistant suede with clean welt stitching. The result is a considered craft pair for slow weekends, finished with a true-to-size fit and black tones.",
     "shortDescription": "Alpine Suede Chukka: a versatile wardrobe companion in black.",
     "images": [
-      "/products/TRP-SH-009-main.svg",
-      "/products/TRP-SH-009-detail.svg",
-      "/products/TRP-SH-009-lifestyle.svg"
+      "products/TRP-SH-009-main.svg",
+      "products/TRP-SH-009-detail.svg",
+      "products/TRP-SH-009-lifestyle.svg"
     ],
     "colors": [
       {
@@ -1775,9 +1775,9 @@
     "description": "The Verve Leather Mule brings lambskin with a covered footbed to slow weekends with a cushioned footbed. Finished by TRAPO Heritage in navy, it pairs considered craft with a streamlined shape.",
     "shortDescription": "Verve Leather Mule: a refined everyday step in navy.",
     "images": [
-      "/products/TRP-SH-010-main.svg",
-      "/products/TRP-SH-010-detail.svg",
-      "/products/TRP-SH-010-lifestyle.svg"
+      "products/TRP-SH-010-main.svg",
+      "products/TRP-SH-010-detail.svg",
+      "products/TRP-SH-010-lifestyle.svg"
     ],
     "colors": [
       {
@@ -1852,9 +1852,9 @@
     "description": "The Drift Canvas Espadrille brings cotton canvas with a jute sole to city days with a flexible sole. Finished by TRAPO Sport in black, it pairs considered craft with a generous toe box.",
     "shortDescription": "Drift Canvas Espadrille: a versatile wardrobe companion in black.",
     "images": [
-      "/products/TRP-SH-011-main.svg",
-      "/products/TRP-SH-011-detail.svg",
-      "/products/TRP-SH-011-lifestyle.svg"
+      "products/TRP-SH-011-main.svg",
+      "products/TRP-SH-011-detail.svg",
+      "products/TRP-SH-011-lifestyle.svg"
     ],
     "colors": [
       {
@@ -1925,9 +1925,9 @@
     "description": "Designed for dinner plans, the Signal Trail Sneaker uses ripstop nylon with a rubber lug sole and a softly burnished finish to create a all-day comfort pair. TRAPO Sport adds a streamlined shape and a cognac palette that stays in rotation.",
     "shortDescription": "Signal Trail Sneaker: a versatile wardrobe companion in cognac.",
     "images": [
-      "/products/TRP-SH-012-main.svg",
-      "/products/TRP-SH-012-detail.svg",
-      "/products/TRP-SH-012-lifestyle.svg"
+      "products/TRP-SH-012-main.svg",
+      "products/TRP-SH-012-detail.svg",
+      "products/TRP-SH-012-lifestyle.svg"
     ],
     "colors": [
       {
@@ -2001,9 +2001,9 @@
     "description": "The Heritage Brogue Oxford brings hand-finished calf leather to city days with clean welt stitching. Finished by TRAPO Atelier in cognac, it pairs quiet character with a streamlined shape.",
     "shortDescription": "Heritage Brogue Oxford: a quietly polished profile in cognac.",
     "images": [
-      "/products/TRP-SH-013-main.svg",
-      "/products/TRP-SH-013-detail.svg",
-      "/products/TRP-SH-013-lifestyle.svg"
+      "products/TRP-SH-013-main.svg",
+      "products/TRP-SH-013-detail.svg",
+      "products/TRP-SH-013-lifestyle.svg"
     ],
     "colors": [
       {
@@ -2073,9 +2073,9 @@
     "description": "TRAPO Atelier crafted the Forma Minimal Slipper from suede with a cushioned insole with a flexible sole. The result is a quiet character pair for dinner plans, finished with a true-to-size fit and espresso tones.",
     "shortDescription": "Forma Minimal Slipper: a quietly polished profile in espresso.",
     "images": [
-      "/products/TRP-SH-014-main.svg",
-      "/products/TRP-SH-014-detail.svg",
-      "/products/TRP-SH-014-lifestyle.svg"
+      "products/TRP-SH-014-main.svg",
+      "products/TRP-SH-014-detail.svg",
+      "products/TRP-SH-014-lifestyle.svg"
     ],
     "colors": [
       {
@@ -2153,9 +2153,9 @@
     "description": "The Arcade Pro Controller brings textured polymer grips to competitive play with a tactile finish. Finished by TRAPO Atelier in ember, it pairs reliable precision with a compact footprint.",
     "shortDescription": "Arcade Pro Controller: a precision-built companion in ember.",
     "images": [
-      "/products/TRP-GM-001-main.svg",
-      "/products/TRP-GM-001-detail.svg",
-      "/products/TRP-GM-001-lifestyle.svg"
+      "products/TRP-GM-001-main.svg",
+      "products/TRP-GM-001-detail.svg",
+      "products/TRP-GM-001-lifestyle.svg"
     ],
     "colors": [
       {
@@ -2219,9 +2219,9 @@
     "description": "TRAPO Atelier crafted the Studio Wireless Headset from memory-foam ear cushions with low-latency response. The result is a immersive control tool for a streamlined setup, finished with a comfortable grip and sand tones.",
     "shortDescription": "Studio Wireless Headset: a considered gaming upgrade in sand.",
     "images": [
-      "/products/TRP-GM-002-main.svg",
-      "/products/TRP-GM-002-detail.svg",
-      "/products/TRP-GM-002-lifestyle.svg"
+      "products/TRP-GM-002-main.svg",
+      "products/TRP-GM-002-detail.svg",
+      "products/TRP-GM-002-lifestyle.svg"
     ],
     "colors": [
       {
@@ -2290,9 +2290,9 @@
     "description": "Designed for competitive play, the Nova Compact Keyboard uses hot-swappable mechanical switches and a balanced weight to create a reliable precision tool. TRAPO Atelier adds an intuitive layout and a cobalt palette that stays in rotation.",
     "shortDescription": "Nova Compact Keyboard: a considered gaming upgrade in cobalt.",
     "images": [
-      "/products/TRP-GM-003-main.svg",
-      "/products/TRP-GM-003-detail.svg",
-      "/products/TRP-GM-003-lifestyle.svg"
+      "products/TRP-GM-003-main.svg",
+      "products/TRP-GM-003-detail.svg",
+      "products/TRP-GM-003-lifestyle.svg"
     ],
     "colors": [
       {
@@ -2359,9 +2359,9 @@
     "description": "TRAPO Sport crafted the Vector Gaming Mouse from matte magnesium shell with low-latency response. The result is a immersive control tool for long sessions, finished with a compact footprint and cobalt tones.",
     "shortDescription": "Vector Gaming Mouse: a responsive desk essential in cobalt.",
     "images": [
-      "/products/TRP-GM-004-main.svg",
-      "/products/TRP-GM-004-detail.svg",
-      "/products/TRP-GM-004-lifestyle.svg"
+      "products/TRP-GM-004-main.svg",
+      "products/TRP-GM-004-detail.svg",
+      "products/TRP-GM-004-lifestyle.svg"
     ],
     "colors": [
       {
@@ -2434,9 +2434,9 @@
     "description": "TRAPO Studio crafted the Apex Console Edition from anodized aluminium chassis with a balanced weight. The result is a reliable precision tool for a streamlined setup, finished with an intuitive layout and silver tones.",
     "shortDescription": "Apex Console Edition: a considered gaming upgrade in silver.",
     "images": [
-      "/products/TRP-GM-005-main.svg",
-      "/products/TRP-GM-005-detail.svg",
-      "/products/TRP-GM-005-lifestyle.svg"
+      "products/TRP-GM-005-main.svg",
+      "products/TRP-GM-005-detail.svg",
+      "products/TRP-GM-005-lifestyle.svg"
     ],
     "colors": [
       {
@@ -2509,9 +2509,9 @@
     "description": "TRAPO Atelier crafted the Pixel Mechanical Keypad from low-profile mechanical keys with thoughtful cable management. The result is a quiet performance tool for competitive play, finished with a comfortable grip and silver tones.",
     "shortDescription": "Pixel Mechanical Keypad: a considered gaming upgrade in silver.",
     "images": [
-      "/products/TRP-GM-006-main.svg",
-      "/products/TRP-GM-006-detail.svg",
-      "/products/TRP-GM-006-lifestyle.svg"
+      "products/TRP-GM-006-main.svg",
+      "products/TRP-GM-006-detail.svg",
+      "products/TRP-GM-006-lifestyle.svg"
     ],
     "colors": [
       {
@@ -2583,9 +2583,9 @@
     "description": "TRAPO Atelier crafted the Orbit Racing Wheel from brushed aluminium spokes with a balanced weight. The result is a quiet performance tool for competitive play, finished with a compact footprint and sand tones.",
     "shortDescription": "Orbit Racing Wheel: a considered gaming upgrade in sand.",
     "images": [
-      "/products/TRP-GM-007-main.svg",
-      "/products/TRP-GM-007-detail.svg",
-      "/products/TRP-GM-007-lifestyle.svg"
+      "products/TRP-GM-007-main.svg",
+      "products/TRP-GM-007-detail.svg",
+      "products/TRP-GM-007-lifestyle.svg"
     ],
     "colors": [
       {
@@ -2655,9 +2655,9 @@
     "description": "Designed for long sessions, the Rift VR Headset uses soft-touch polymer and foam and low-latency response to create a immersive control tool. TRAPO Studio adds a comfortable grip and a sand palette that stays in rotation.",
     "shortDescription": "Rift VR Headset: a precision-built companion in sand.",
     "images": [
-      "/products/TRP-GM-008-main.svg",
-      "/products/TRP-GM-008-detail.svg",
-      "/products/TRP-GM-008-lifestyle.svg"
+      "products/TRP-GM-008-main.svg",
+      "products/TRP-GM-008-detail.svg",
+      "products/TRP-GM-008-lifestyle.svg"
     ],
     "colors": [
       {
@@ -2725,9 +2725,9 @@
     "description": "The Titan Docking Station brings aluminium housing with passive cooling to competitive play with thoughtful cable management. Finished by TRAPO Labs in ember, it pairs quiet performance with an intuitive layout.",
     "shortDescription": "Titan Docking Station: a precision-built companion in ember.",
     "images": [
-      "/products/TRP-GM-009-main.svg",
-      "/products/TRP-GM-009-detail.svg",
-      "/products/TRP-GM-009-lifestyle.svg"
+      "products/TRP-GM-009-main.svg",
+      "products/TRP-GM-009-detail.svg",
+      "products/TRP-GM-009-lifestyle.svg"
     ],
     "colors": [
       {
@@ -2802,9 +2802,9 @@
     "description": "The Shadow Controller Pad brings soft-touch wireless shell to late-night runs with a tactile finish. Finished by TRAPO Heritage in sand, it pairs reliable precision with a comfortable grip.",
     "shortDescription": "Shadow Controller Pad: a precision-built companion in sand.",
     "images": [
-      "/products/TRP-GM-010-main.svg",
-      "/products/TRP-GM-010-detail.svg",
-      "/products/TRP-GM-010-lifestyle.svg"
+      "products/TRP-GM-010-main.svg",
+      "products/TRP-GM-010-detail.svg",
+      "products/TRP-GM-010-lifestyle.svg"
     ],
     "colors": [
       {
@@ -2873,9 +2873,9 @@
     "description": "TRAPO Atelier crafted the Spectrum RGB Mousepad from micro-woven cloth with stitched edges with a balanced weight. The result is a immersive control tool for late-night runs, finished with a comfortable grip and sand tones.",
     "shortDescription": "Spectrum RGB Mousepad: a considered gaming upgrade in sand.",
     "images": [
-      "/products/TRP-GM-011-main.svg",
-      "/products/TRP-GM-011-detail.svg",
-      "/products/TRP-GM-011-lifestyle.svg"
+      "products/TRP-GM-011-main.svg",
+      "products/TRP-GM-011-detail.svg",
+      "products/TRP-GM-011-lifestyle.svg"
     ],
     "colors": [
       {
@@ -2938,9 +2938,9 @@
     "description": "The Echo Chat Microphone brings metal body with a shock mount to a streamlined setup with low-latency response. Finished by TRAPO Studio in midnight, it pairs quiet performance with a comfortable grip.",
     "shortDescription": "Echo Chat Microphone: a precision-built companion in midnight.",
     "images": [
-      "/products/TRP-GM-012-main.svg",
-      "/products/TRP-GM-012-detail.svg",
-      "/products/TRP-GM-012-lifestyle.svg"
+      "products/TRP-GM-012-main.svg",
+      "products/TRP-GM-012-detail.svg",
+      "products/TRP-GM-012-lifestyle.svg"
     ],
     "colors": [
       {
@@ -3014,9 +3014,9 @@
     "description": "The Forge Travel Case brings moulded shell with a felt interior to competitive play with low-latency response. Finished by TRAPO Studio in ember, it pairs reliable precision with a compact footprint.",
     "shortDescription": "Forge Travel Case: a precision-built companion in ember.",
     "images": [
-      "/products/TRP-GM-013-main.svg",
-      "/products/TRP-GM-013-detail.svg",
-      "/products/TRP-GM-013-lifestyle.svg"
+      "products/TRP-GM-013-main.svg",
+      "products/TRP-GM-013-detail.svg",
+      "products/TRP-GM-013-lifestyle.svg"
     ],
     "colors": [
       {
@@ -3083,9 +3083,9 @@
     "description": "TRAPO Studio crafted the Grid Streaming Device from compact aluminium enclosure with a tactile finish. The result is a quiet performance tool for competitive play, finished with a compact footprint and sand tones.",
     "shortDescription": "Grid Streaming Device: a considered gaming upgrade in sand.",
     "images": [
-      "/products/TRP-GM-014-main.svg",
-      "/products/TRP-GM-014-detail.svg",
-      "/products/TRP-GM-014-lifestyle.svg"
+      "products/TRP-GM-014-main.svg",
+      "products/TRP-GM-014-detail.svg",
+      "products/TRP-GM-014-lifestyle.svg"
     ],
     "colors": [
       {
@@ -3148,9 +3148,9 @@
     "description": "The Lumen 14 Laptop brings recycled aluminium unibody to quiet evenings with carefully tuned acoustics. Finished by TRAPO Studio in graphite, it pairs everyday clarity with a slim profile.",
     "shortDescription": "Lumen 14 Laptop: a thoughtful desk upgrade in graphite.",
     "images": [
-      "/products/TRP-EL-001-main.svg",
-      "/products/TRP-EL-001-detail.svg",
-      "/products/TRP-EL-001-lifestyle.svg"
+      "products/TRP-EL-001-main.svg",
+      "products/TRP-EL-001-detail.svg",
+      "products/TRP-EL-001-lifestyle.svg"
     ],
     "colors": [
       {
@@ -3217,9 +3217,9 @@
     "description": "TRAPO Sport crafted the Forma Smartphone from glass and brushed steel with a precision-machined housing. The result is a everyday clarity device for daily commuting, finished with a balanced form and sage tones.",
     "shortDescription": "Forma Smartphone: a refined daily companion in sage.",
     "images": [
-      "/products/TRP-EL-002-main.svg",
-      "/products/TRP-EL-002-detail.svg",
-      "/products/TRP-EL-002-lifestyle.svg"
+      "products/TRP-EL-002-main.svg",
+      "products/TRP-EL-002-detail.svg",
+      "products/TRP-EL-002-lifestyle.svg"
     ],
     "colors": [
       {
@@ -3292,9 +3292,9 @@
     "description": "TRAPO Heritage crafted the Aura Studio Headphones from anodised aluminium and leather with a softly matte finish. The result is a everyday clarity device for creative sessions, finished with an intuitive interface and champagne tones.",
     "shortDescription": "Aura Studio Headphones: a cleanly designed essential in champagne.",
     "images": [
-      "/products/TRP-EL-003-main.svg",
-      "/products/TRP-EL-003-detail.svg",
-      "/products/TRP-EL-003-lifestyle.svg"
+      "products/TRP-EL-003-main.svg",
+      "products/TRP-EL-003-detail.svg",
+      "products/TRP-EL-003-lifestyle.svg"
     ],
     "colors": [
       {
@@ -3359,9 +3359,9 @@
     "description": "Designed for focused work, the Aperture Mirrorless Camera uses magnesium alloy body and a crisp, detailed display to create a considered engineering device. TRAPO Labs adds a slim profile and a graphite palette that stays in rotation.",
     "shortDescription": "Aperture Mirrorless Camera: a refined daily companion in graphite.",
     "images": [
-      "/products/TRP-EL-004-main.svg",
-      "/products/TRP-EL-004-detail.svg",
-      "/products/TRP-EL-004-lifestyle.svg"
+      "products/TRP-EL-004-main.svg",
+      "products/TRP-EL-004-detail.svg",
+      "products/TRP-EL-004-lifestyle.svg"
     ],
     "colors": [
       {
@@ -3436,9 +3436,9 @@
     "description": "The Solo Bluetooth Speaker brings woven grille and silicone base to daily commuting with carefully tuned acoustics. Finished by TRAPO Studio in sage, it pairs effortless reliability with a balanced form.",
     "shortDescription": "Solo Bluetooth Speaker: a thoughtful desk upgrade in sage.",
     "images": [
-      "/products/TRP-EL-005-main.svg",
-      "/products/TRP-EL-005-detail.svg",
-      "/products/TRP-EL-005-lifestyle.svg"
+      "products/TRP-EL-005-main.svg",
+      "products/TRP-EL-005-detail.svg",
+      "products/TRP-EL-005-lifestyle.svg"
     ],
     "colors": [
       {
@@ -3506,9 +3506,9 @@
     "description": "Designed for quiet evenings, the Slate Wireless Earbuds uses matte charging case and a precision-machined housing to create a effortless reliability device. TRAPO Studio adds an intuitive interface and a graphite palette that stays in rotation.",
     "shortDescription": "Slate Wireless Earbuds: a refined daily companion in graphite.",
     "images": [
-      "/products/TRP-EL-006-main.svg",
-      "/products/TRP-EL-006-detail.svg",
-      "/products/TRP-EL-006-lifestyle.svg"
+      "products/TRP-EL-006-main.svg",
+      "products/TRP-EL-006-detail.svg",
+      "products/TRP-EL-006-lifestyle.svg"
     ],
     "colors": [
       {
@@ -3576,9 +3576,9 @@
     "description": "Designed for creative sessions, the Frame 27 Monitor uses slim aluminium frame and a softly matte finish to create a effortless reliability device. TRAPO Studio adds a slim profile and a graphite palette that stays in rotation.",
     "shortDescription": "Frame 27 Monitor: a cleanly designed essential in graphite.",
     "images": [
-      "/products/TRP-EL-007-main.svg",
-      "/products/TRP-EL-007-detail.svg",
-      "/products/TRP-EL-007-lifestyle.svg"
+      "products/TRP-EL-007-main.svg",
+      "products/TRP-EL-007-detail.svg",
+      "products/TRP-EL-007-lifestyle.svg"
     ],
     "colors": [
       {
@@ -3641,9 +3641,9 @@
     "description": "Designed for focused work, the Arc Portable Projector uses textured polycarbonate shell and a precision-machined housing to create a effortless reliability device. TRAPO Labs adds a slim profile and a midnight palette that stays in rotation.",
     "shortDescription": "Arc Portable Projector: a thoughtful desk upgrade in midnight.",
     "images": [
-      "/products/TRP-EL-008-main.svg",
-      "/products/TRP-EL-008-detail.svg",
-      "/products/TRP-EL-008-lifestyle.svg"
+      "products/TRP-EL-008-main.svg",
+      "products/TRP-EL-008-detail.svg",
+      "products/TRP-EL-008-lifestyle.svg"
     ],
     "colors": [
       {
@@ -3717,9 +3717,9 @@
     "description": "Designed for creative sessions, the Pixel Action Camera uses waterproof polymer housing and a crisp, detailed display to create a everyday clarity device. TRAPO Studio adds an intuitive interface and a graphite palette that stays in rotation.",
     "shortDescription": "Pixel Action Camera: a cleanly designed essential in graphite.",
     "images": [
-      "/products/TRP-EL-009-main.svg",
-      "/products/TRP-EL-009-detail.svg",
-      "/products/TRP-EL-009-lifestyle.svg"
+      "products/TRP-EL-009-main.svg",
+      "products/TRP-EL-009-detail.svg",
+      "products/TRP-EL-009-lifestyle.svg"
     ],
     "colors": [
       {
@@ -3792,9 +3792,9 @@
     "description": "Designed for creative sessions, the Echo Desk Microphone uses brass capsule and steel body and a crisp, detailed display to create a considered engineering device. TRAPO Labs adds a slim profile and a sage palette that stays in rotation.",
     "shortDescription": "Echo Desk Microphone: a refined daily companion in sage.",
     "images": [
-      "/products/TRP-EL-010-main.svg",
-      "/products/TRP-EL-010-detail.svg",
-      "/products/TRP-EL-010-lifestyle.svg"
+      "products/TRP-EL-010-main.svg",
+      "products/TRP-EL-010-detail.svg",
+      "products/TRP-EL-010-lifestyle.svg"
     ],
     "colors": [
       {
@@ -3860,9 +3860,9 @@
     "description": "The Flux Power Bank brings recycled aluminium casing to daily commuting with carefully tuned acoustics. Finished by TRAPO Atelier in midnight, it pairs everyday clarity with an intuitive interface.",
     "shortDescription": "Flux Power Bank: a thoughtful desk upgrade in midnight.",
     "images": [
-      "/products/TRP-EL-011-main.svg",
-      "/products/TRP-EL-011-detail.svg",
-      "/products/TRP-EL-011-lifestyle.svg"
+      "products/TRP-EL-011-main.svg",
+      "products/TRP-EL-011-detail.svg",
+      "products/TRP-EL-011-lifestyle.svg"
     ],
     "colors": [
       {
@@ -3931,9 +3931,9 @@
     "description": "TRAPO Studio crafted the Nimbus Portable SSD from anodised aluminium enclosure with a precision-machined housing. The result is a everyday clarity device for quiet evenings, finished with a balanced form and graphite tones.",
     "shortDescription": "Nimbus Portable SSD: a cleanly designed essential in graphite.",
     "images": [
-      "/products/TRP-EL-012-main.svg",
-      "/products/TRP-EL-012-detail.svg",
-      "/products/TRP-EL-012-lifestyle.svg"
+      "products/TRP-EL-012-main.svg",
+      "products/TRP-EL-012-detail.svg",
+      "products/TRP-EL-012-lifestyle.svg"
     ],
     "colors": [
       {
@@ -3997,9 +3997,9 @@
     "description": "Designed for daily commuting, the Halo Ring Light uses powder-coated steel frame and a precision-machined housing to create a considered engineering device. TRAPO Sport adds an intuitive interface and a sage palette that stays in rotation.",
     "shortDescription": "Halo Ring Light: a refined daily companion in sage.",
     "images": [
-      "/products/TRP-EL-013-main.svg",
-      "/products/TRP-EL-013-detail.svg",
-      "/products/TRP-EL-013-lifestyle.svg"
+      "products/TRP-EL-013-main.svg",
+      "products/TRP-EL-013-detail.svg",
+      "products/TRP-EL-013-lifestyle.svg"
     ],
     "colors": [
       {
@@ -4070,9 +4070,9 @@
     "description": "TRAPO Labs crafted the Cove Desk Lamp from matte metal with a linen shade with carefully tuned acoustics. The result is a effortless reliability device for focused work, finished with a slim profile and graphite tones.",
     "shortDescription": "Cove Desk Lamp: a refined daily companion in graphite.",
     "images": [
-      "/products/TRP-EL-014-main.svg",
-      "/products/TRP-EL-014-detail.svg",
-      "/products/TRP-EL-014-lifestyle.svg"
+      "products/TRP-EL-014-main.svg",
+      "products/TRP-EL-014-detail.svg",
+      "products/TRP-EL-014-lifestyle.svg"
     ],
     "colors": [
       {
@@ -4143,9 +4143,9 @@
     "description": "TRAPO Atelier crafted the Meridian Automatic Watch from self-winding mechanical movement with a sunbrushed dial. The result is a quiet confidence timepiece for the office, finished with a slim wrist profile and onyx tones.",
     "shortDescription": "Meridian Automatic Watch: a quietly precise companion in onyx.",
     "images": [
-      "/products/TRP-WT-001-main.svg",
-      "/products/TRP-WT-001-detail.svg",
-      "/products/TRP-WT-001-lifestyle.svg"
+      "products/TRP-WT-001-main.svg",
+      "products/TRP-WT-001-detail.svg",
+      "products/TRP-WT-001-lifestyle.svg"
     ],
     "colors": [
       {
@@ -4220,9 +4220,9 @@
     "description": "Designed for weekend travel, the Mariner Dive Watch uses 200m water-resistant case and a sapphire crystal to create a quiet confidence timepiece. TRAPO Studio adds a slim wrist profile and a navy palette that stays in rotation.",
     "shortDescription": "Mariner Dive Watch: a refined wrist presence in navy.",
     "images": [
-      "/products/TRP-WT-002-main.svg",
-      "/products/TRP-WT-002-detail.svg",
-      "/products/TRP-WT-002-lifestyle.svg"
+      "products/TRP-WT-002-main.svg",
+      "products/TRP-WT-002-detail.svg",
+      "products/TRP-WT-002-lifestyle.svg"
     ],
     "colors": [
       {
@@ -4292,9 +4292,9 @@
     "description": "Designed for weekend travel, the Chrono Field Watch uses quartz chronograph movement and polished applied markers to create a quiet confidence timepiece. TRAPO Sport adds a slim wrist profile and a onyx palette that stays in rotation.",
     "shortDescription": "Chrono Field Watch: a quietly precise companion in onyx.",
     "images": [
-      "/products/TRP-WT-003-main.svg",
-      "/products/TRP-WT-003-detail.svg",
-      "/products/TRP-WT-003-lifestyle.svg"
+      "products/TRP-WT-003-main.svg",
+      "products/TRP-WT-003-detail.svg",
+      "products/TRP-WT-003-lifestyle.svg"
     ],
     "colors": [
       {
@@ -4368,9 +4368,9 @@
     "description": "TRAPO Atelier crafted the Atelier Skeleton Watch from openworked mechanical movement with polished applied markers. The result is a quiet confidence timepiece for the office, finished with a slim wrist profile and gold tones.",
     "shortDescription": "Atelier Skeleton Watch: a refined wrist presence in gold.",
     "images": [
-      "/products/TRP-WT-004-main.svg",
-      "/products/TRP-WT-004-detail.svg",
-      "/products/TRP-WT-004-lifestyle.svg"
+      "products/TRP-WT-004-main.svg",
+      "products/TRP-WT-004-detail.svg",
+      "products/TRP-WT-004-lifestyle.svg"
     ],
     "colors": [
       {
@@ -4437,9 +4437,9 @@
     "description": "The Heritage Pocket Watch brings mechanical pocket movement to evening occasions with a comfortable woven strap. Finished by TRAPO Labs in navy, it pairs mechanical character with a secure fit.",
     "shortDescription": "Heritage Pocket Watch: a refined wrist presence in navy.",
     "images": [
-      "/products/TRP-WT-005-main.svg",
-      "/products/TRP-WT-005-detail.svg",
-      "/products/TRP-WT-005-lifestyle.svg"
+      "products/TRP-WT-005-main.svg",
+      "products/TRP-WT-005-detail.svg",
+      "products/TRP-WT-005-lifestyle.svg"
     ],
     "colors": [
       {
@@ -4513,9 +4513,9 @@
     "description": "The Studio Minimal Watch brings slim Swiss quartz movement to evening occasions with polished applied markers. Finished by TRAPO Sport in gold, it pairs quiet confidence with a balanced case.",
     "shortDescription": "Studio Minimal Watch: a quietly precise companion in gold.",
     "images": [
-      "/products/TRP-WT-006-main.svg",
-      "/products/TRP-WT-006-detail.svg",
-      "/products/TRP-WT-006-lifestyle.svg"
+      "products/TRP-WT-006-main.svg",
+      "products/TRP-WT-006-detail.svg",
+      "products/TRP-WT-006-lifestyle.svg"
     ],
     "colors": [
       {
@@ -4580,9 +4580,9 @@
     "description": "TRAPO Atelier crafted the Aviator GMT Watch from dual-time automatic movement with a sunbrushed dial. The result is a quiet confidence timepiece for evening occasions, finished with a slim wrist profile and gold tones.",
     "shortDescription": "Aviator GMT Watch: a modern heirloom in gold.",
     "images": [
-      "/products/TRP-WT-007-main.svg",
-      "/products/TRP-WT-007-detail.svg",
-      "/products/TRP-WT-007-lifestyle.svg"
+      "products/TRP-WT-007-main.svg",
+      "products/TRP-WT-007-detail.svg",
+      "products/TRP-WT-007-lifestyle.svg"
     ],
     "colors": [
       {
@@ -4657,9 +4657,9 @@
     "description": "The Nocturne Moonphase Watch brings moonphase automatic movement to everyday wear with a sapphire crystal. Finished by TRAPO Heritage in cognac, it pairs timeless precision with a balanced case.",
     "shortDescription": "Nocturne Moonphase Watch: a quietly precise companion in cognac.",
     "images": [
-      "/products/TRP-WT-008-main.svg",
-      "/products/TRP-WT-008-detail.svg",
-      "/products/TRP-WT-008-lifestyle.svg"
+      "products/TRP-WT-008-main.svg",
+      "products/TRP-WT-008-detail.svg",
+      "products/TRP-WT-008-lifestyle.svg"
     ],
     "colors": [
       {
@@ -4724,9 +4724,9 @@
     "description": "Designed for the office, the Vector Sport Watch uses shock-resistant quartz movement and a sunbrushed dial to create a quiet confidence timepiece. TRAPO Studio adds a secure fit and a steel palette that stays in rotation.",
     "shortDescription": "Vector Sport Watch: a refined wrist presence in steel.",
     "images": [
-      "/products/TRP-WT-009-main.svg",
-      "/products/TRP-WT-009-detail.svg",
-      "/products/TRP-WT-009-lifestyle.svg"
+      "products/TRP-WT-009-main.svg",
+      "products/TRP-WT-009-detail.svg",
+      "products/TRP-WT-009-lifestyle.svg"
     ],
     "colors": [
       {
@@ -4801,9 +4801,9 @@
     "description": "The Solstice Solar Watch brings light-powered quartz movement to everyday wear with a sunbrushed dial. Finished by TRAPO Heritage in rose, it pairs timeless precision with a secure fit.",
     "shortDescription": "Solstice Solar Watch: a refined wrist presence in rose.",
     "images": [
-      "/products/TRP-WT-010-main.svg",
-      "/products/TRP-WT-010-detail.svg",
-      "/products/TRP-WT-010-lifestyle.svg"
+      "products/TRP-WT-010-main.svg",
+      "products/TRP-WT-010-detail.svg",
+      "products/TRP-WT-010-lifestyle.svg"
     ],
     "colors": [
       {
@@ -4873,9 +4873,9 @@
     "description": "The Vintage Rectangular Watch brings rectangular quartz movement to weekend travel with a sunbrushed dial. Finished by TRAPO Labs in navy, it pairs timeless precision with a slim wrist profile.",
     "shortDescription": "Vintage Rectangular Watch: a refined wrist presence in navy.",
     "images": [
-      "/products/TRP-WT-011-main.svg",
-      "/products/TRP-WT-011-detail.svg",
-      "/products/TRP-WT-011-lifestyle.svg"
+      "products/TRP-WT-011-main.svg",
+      "products/TRP-WT-011-detail.svg",
+      "products/TRP-WT-011-lifestyle.svg"
     ],
     "colors": [
       {
@@ -4945,9 +4945,9 @@
     "description": "The Terra Chronograph Watch brings column-wheel chronograph to the office with polished applied markers. Finished by TRAPO Heritage in gold, it pairs timeless precision with a secure fit.",
     "shortDescription": "Terra Chronograph Watch: a modern heirloom in gold.",
     "images": [
-      "/products/TRP-WT-012-main.svg",
-      "/products/TRP-WT-012-detail.svg",
-      "/products/TRP-WT-012-lifestyle.svg"
+      "products/TRP-WT-012-main.svg",
+      "products/TRP-WT-012-detail.svg",
+      "products/TRP-WT-012-lifestyle.svg"
     ],
     "colors": [
       {
@@ -5012,9 +5012,9 @@
     "description": "TRAPO Sport crafted the Echo Smart Watch from AMOLED display with sensor array with a sapphire crystal. The result is a quiet confidence timepiece for evening occasions, finished with a balanced case and gold tones.",
     "shortDescription": "Echo Smart Watch: a refined wrist presence in gold.",
     "images": [
-      "/products/TRP-WT-013-main.svg",
-      "/products/TRP-WT-013-detail.svg",
-      "/products/TRP-WT-013-lifestyle.svg"
+      "products/TRP-WT-013-main.svg",
+      "products/TRP-WT-013-detail.svg",
+      "products/TRP-WT-013-lifestyle.svg"
     ],
     "colors": [
       {
@@ -5084,9 +5084,9 @@
     "description": "TRAPO Heritage crafted the Eclipse Ceramic Watch from scratch-resistant ceramic case with a sunbrushed dial. The result is a mechanical character timepiece for everyday wear, finished with a secure fit and navy tones.",
     "shortDescription": "Eclipse Ceramic Watch: a modern heirloom in navy.",
     "images": [
-      "/products/TRP-WT-014-main.svg",
-      "/products/TRP-WT-014-detail.svg",
-      "/products/TRP-WT-014-lifestyle.svg"
+      "products/TRP-WT-014-main.svg",
+      "products/TRP-WT-014-detail.svg",
+      "products/TRP-WT-014-lifestyle.svg"
     ],
     "colors": [
       {
@@ -5159,9 +5159,9 @@
     "description": "TRAPO Atelier crafted the Solstice Sunglasses from Italian acetate frame with a soft tactile finish. The result is a subtle character piece for the office, finished with an easy fit and rose tones.",
     "shortDescription": "Solstice Sunglasses: a considered finishing touch in rose.",
     "images": [
-      "/products/TRP-AC-001-main.svg",
-      "/products/TRP-AC-001-detail.svg",
-      "/products/TRP-AC-001-lifestyle.svg"
+      "products/TRP-AC-001-main.svg",
+      "products/TRP-AC-001-detail.svg",
+      "products/TRP-AC-001-lifestyle.svg"
     ],
     "colors": [
       {
@@ -5230,9 +5230,9 @@
     "description": "Designed for weekend plans, the Atelier Leather Belt uses full-grain bridle leather and a soft tactile finish to create a subtle character piece. TRAPO Studio adds an easy fit and a tortoise palette that stays in rotation.",
     "shortDescription": "Atelier Leather Belt: an everyday detail in tortoise.",
     "images": [
-      "/products/TRP-AC-002-main.svg",
-      "/products/TRP-AC-002-detail.svg",
-      "/products/TRP-AC-002-lifestyle.svg"
+      "products/TRP-AC-002-main.svg",
+      "products/TRP-AC-002-detail.svg",
+      "products/TRP-AC-002-lifestyle.svg"
     ],
     "colors": [
       {
@@ -5304,9 +5304,9 @@
     "description": "Designed for the office, the Cashmere Silk Scarf uses cashmere-silk weave and a neatly stitched detail to create a practical elegance piece. TRAPO Atelier adds an easy fit and a rose palette that stays in rotation.",
     "shortDescription": "Cashmere Silk Scarf: a considered finishing touch in rose.",
     "images": [
-      "/products/TRP-AC-003-main.svg",
-      "/products/TRP-AC-003-detail.svg",
-      "/products/TRP-AC-003-lifestyle.svg"
+      "products/TRP-AC-003-main.svg",
+      "products/TRP-AC-003-detail.svg",
+      "products/TRP-AC-003-lifestyle.svg"
     ],
     "colors": [
       {
@@ -5380,9 +5380,9 @@
     "description": "TRAPO Sport crafted the Field Wool Cap from melton wool with a cotton lining with understated hardware. The result is a quiet craft piece for daily wear, finished with an easy fit and olive tones.",
     "shortDescription": "Field Wool Cap: a considered finishing touch in olive.",
     "images": [
-      "/products/TRP-AC-004-main.svg",
-      "/products/TRP-AC-004-detail.svg",
-      "/products/TRP-AC-004-lifestyle.svg"
+      "products/TRP-AC-004-main.svg",
+      "products/TRP-AC-004-detail.svg",
+      "products/TRP-AC-004-lifestyle.svg"
     ],
     "colors": [
       {
@@ -5451,9 +5451,9 @@
     "description": "The Slim Card Wallet brings vegetable-tanned card slots to daily wear with a soft tactile finish. Finished by TRAPO Sport in olive, it pairs practical elegance with a versatile proportion.",
     "shortDescription": "Slim Card Wallet: an everyday detail in olive.",
     "images": [
-      "/products/TRP-AC-005-main.svg",
-      "/products/TRP-AC-005-detail.svg",
-      "/products/TRP-AC-005-lifestyle.svg"
+      "products/TRP-AC-005-main.svg",
+      "products/TRP-AC-005-detail.svg",
+      "products/TRP-AC-005-lifestyle.svg"
     ],
     "colors": [
       {
@@ -5518,9 +5518,9 @@
     "description": "Designed for weekend plans, the Studio Silk Tie uses woven mulberry silk and a soft tactile finish to create a quiet craft piece. TRAPO Studio adds an easy fit and a camel palette that stays in rotation.",
     "shortDescription": "Studio Silk Tie: a quietly refined accent in camel.",
     "images": [
-      "/products/TRP-AC-006-main.svg",
-      "/products/TRP-AC-006-detail.svg",
-      "/products/TRP-AC-006-lifestyle.svg"
+      "products/TRP-AC-006-main.svg",
+      "products/TRP-AC-006-detail.svg",
+      "products/TRP-AC-006-lifestyle.svg"
     ],
     "colors": [
       {
@@ -5591,9 +5591,9 @@
     "description": "Designed for daily wear, the Heritage Gloves uses supple lambskin with cashmere lining and understated hardware to create a quiet craft piece. TRAPO Atelier adds a versatile proportion and a olive palette that stays in rotation.",
     "shortDescription": "Heritage Gloves: an everyday detail in olive.",
     "images": [
-      "/products/TRP-AC-007-main.svg",
-      "/products/TRP-AC-007-detail.svg",
-      "/products/TRP-AC-007-lifestyle.svg"
+      "products/TRP-AC-007-main.svg",
+      "products/TRP-AC-007-detail.svg",
+      "products/TRP-AC-007-lifestyle.svg"
     ],
     "colors": [
       {
@@ -5661,9 +5661,9 @@
     "description": "TRAPO Atelier crafted the Vista Aviator Sunglasses from thin metal frame with glass lenses with understated hardware. The result is a practical elegance piece for daily wear, finished with a comfortable shape and olive tones.",
     "shortDescription": "Vista Aviator Sunglasses: a quietly refined accent in olive.",
     "images": [
-      "/products/TRP-AC-008-main.svg",
-      "/products/TRP-AC-008-detail.svg",
-      "/products/TRP-AC-008-lifestyle.svg"
+      "products/TRP-AC-008-main.svg",
+      "products/TRP-AC-008-detail.svg",
+      "products/TRP-AC-008-lifestyle.svg"
     ],
     "colors": [
       {
@@ -5730,9 +5730,9 @@
     "description": "TRAPO Studio crafted the Orbit Bracelet from brushed recycled sterling silver with a hand-finished edge. The result is a subtle character piece for daily wear, finished with an easy fit and black tones.",
     "shortDescription": "Orbit Bracelet: a considered finishing touch in black.",
     "images": [
-      "/products/TRP-AC-009-main.svg",
-      "/products/TRP-AC-009-detail.svg",
-      "/products/TRP-AC-009-lifestyle.svg"
+      "products/TRP-AC-009-main.svg",
+      "products/TRP-AC-009-detail.svg",
+      "products/TRP-AC-009-lifestyle.svg"
     ],
     "colors": [
       {
@@ -5805,9 +5805,9 @@
     "description": "TRAPO Sport crafted the Linen Pocket Square from hand-rolled linen hem with a hand-finished edge. The result is a subtle character piece for evening plans, finished with a comfortable shape and camel tones.",
     "shortDescription": "Linen Pocket Square: a considered finishing touch in camel.",
     "images": [
-      "/products/TRP-AC-010-main.svg",
-      "/products/TRP-AC-010-detail.svg",
-      "/products/TRP-AC-010-lifestyle.svg"
+      "products/TRP-AC-010-main.svg",
+      "products/TRP-AC-010-detail.svg",
+      "products/TRP-AC-010-lifestyle.svg"
     ],
     "colors": [
       {
@@ -5874,9 +5874,9 @@
     "description": "TRAPO Labs crafted the Ridge Beanie from ribbed lambswool with understated hardware. The result is a subtle character piece for daily wear, finished with a comfortable shape and ivory tones.",
     "shortDescription": "Ridge Beanie: a quietly refined accent in ivory.",
     "images": [
-      "/products/TRP-AC-011-main.svg",
-      "/products/TRP-AC-011-detail.svg",
-      "/products/TRP-AC-011-lifestyle.svg"
+      "products/TRP-AC-011-main.svg",
+      "products/TRP-AC-011-detail.svg",
+      "products/TRP-AC-011-lifestyle.svg"
     ],
     "colors": [
       {
@@ -5949,9 +5949,9 @@
     "description": "Designed for evening plans, the Flex Reading Glasses uses lightweight acetate frame and a soft tactile finish to create a practical elegance piece. TRAPO Sport adds an easy fit and a black palette that stays in rotation.",
     "shortDescription": "Flex Reading Glasses: an everyday detail in black.",
     "images": [
-      "/products/TRP-AC-012-main.svg",
-      "/products/TRP-AC-012-detail.svg",
-      "/products/TRP-AC-012-lifestyle.svg"
+      "products/TRP-AC-012-main.svg",
+      "products/TRP-AC-012-detail.svg",
+      "products/TRP-AC-012-lifestyle.svg"
     ],
     "colors": [
       {
@@ -6022,9 +6022,9 @@
     "description": "Designed for evening plans, the Cove Leather Keyring uses bridle leather and antique brass and a neatly stitched detail to create a practical elegance piece. TRAPO Sport adds a versatile proportion and a navy palette that stays in rotation.",
     "shortDescription": "Cove Leather Keyring: a quietly refined accent in navy.",
     "images": [
-      "/products/TRP-AC-013-main.svg",
-      "/products/TRP-AC-013-detail.svg",
-      "/products/TRP-AC-013-lifestyle.svg"
+      "products/TRP-AC-013-main.svg",
+      "products/TRP-AC-013-detail.svg",
+      "products/TRP-AC-013-lifestyle.svg"
     ],
     "colors": [
       {
@@ -6094,9 +6094,9 @@
     "description": "Designed for weekend plans, the Noir Bow Tie uses self-tie silk faille and understated hardware to create a practical elegance piece. TRAPO Heritage adds an easy fit and a tortoise palette that stays in rotation.",
     "shortDescription": "Noir Bow Tie: an everyday detail in tortoise.",
     "images": [
-      "/products/TRP-AC-014-main.svg",
-      "/products/TRP-AC-014-detail.svg",
-      "/products/TRP-AC-014-lifestyle.svg"
+      "products/TRP-AC-014-main.svg",
+      "products/TRP-AC-014-detail.svg",
+      "products/TRP-AC-014-lifestyle.svg"
     ],
     "colors": [
       {
@@ -6161,9 +6161,9 @@
     "description": "TRAPO Atelier crafted the City Tote Bag from structured full-grain leather with carefully finished hardware. The result is a considered organisation bag for studio days, finished with a balanced silhouette and cognac tones.",
     "shortDescription": "City Tote Bag: a polished travel companion in cognac.",
     "images": [
-      "/products/TRP-BG-001-main.svg",
-      "/products/TRP-BG-001-detail.svg",
-      "/products/TRP-BG-001-lifestyle.svg"
+      "products/TRP-BG-001-main.svg",
+      "products/TRP-BG-001-detail.svg",
+      "products/TRP-BG-001-lifestyle.svg"
     ],
     "colors": [
       {
@@ -6228,9 +6228,9 @@
     "description": "The Atlas Leather Backpack brings waxed leather with canvas lining to studio days with reinforced seams. Finished by TRAPO Studio in cognac, it pairs quiet utility with a roomy interior.",
     "shortDescription": "Atlas Leather Backpack: a beautifully practical shape in cognac.",
     "images": [
-      "/products/TRP-BG-002-main.svg",
-      "/products/TRP-BG-002-detail.svg",
-      "/products/TRP-BG-002-lifestyle.svg"
+      "products/TRP-BG-002-main.svg",
+      "products/TRP-BG-002-detail.svg",
+      "products/TRP-BG-002-lifestyle.svg"
     ],
     "colors": [
       {
@@ -6295,9 +6295,9 @@
     "description": "Designed for the daily commute, the Crossbody Studio Bag uses soft-grained calf leather and a soft suede lining to create a quiet utility bag. TRAPO Labs adds a roomy interior and a taupe palette that stays in rotation.",
     "shortDescription": "Crossbody Studio Bag: a beautifully practical shape in taupe.",
     "images": [
-      "/products/TRP-BG-003-main.svg",
-      "/products/TRP-BG-003-detail.svg",
-      "/products/TRP-BG-003-lifestyle.svg"
+      "products/TRP-BG-003-main.svg",
+      "products/TRP-BG-003-detail.svg",
+      "products/TRP-BG-003-lifestyle.svg"
     ],
     "colors": [
       {
@@ -6363,9 +6363,9 @@
     "description": "TRAPO Heritage crafted the Weekender Duffel from waxed canvas and leather trim with a soft suede lining. The result is a considered organisation bag for city exploring, finished with a roomy interior and olive tones.",
     "shortDescription": "Weekender Duffel: a polished travel companion in olive.",
     "images": [
-      "/products/TRP-BG-004-main.svg",
-      "/products/TRP-BG-004-detail.svg",
-      "/products/TRP-BG-004-lifestyle.svg"
+      "products/TRP-BG-004-main.svg",
+      "products/TRP-BG-004-detail.svg",
+      "products/TRP-BG-004-lifestyle.svg"
     ],
     "colors": [
       {
@@ -6434,9 +6434,9 @@
     "description": "TRAPO Studio crafted the Atelier Briefcase from double-face calf leather with a soft suede lining. The result is a everyday resilience bag for city exploring, finished with a roomy interior and cognac tones.",
     "shortDescription": "Atelier Briefcase: a beautifully practical shape in cognac.",
     "images": [
-      "/products/TRP-BG-005-main.svg",
-      "/products/TRP-BG-005-detail.svg",
-      "/products/TRP-BG-005-lifestyle.svg"
+      "products/TRP-BG-005-main.svg",
+      "products/TRP-BG-005-detail.svg",
+      "products/TRP-BG-005-lifestyle.svg"
     ],
     "colors": [
       {
@@ -6511,9 +6511,9 @@
     "description": "The Market Canvas Tote brings heavyweight organic canvas to city exploring with a soft suede lining. Finished by TRAPO Studio in taupe, it pairs everyday resilience with a balanced silhouette.",
     "shortDescription": "Market Canvas Tote: a polished travel companion in taupe.",
     "images": [
-      "/products/TRP-BG-006-main.svg",
-      "/products/TRP-BG-006-detail.svg",
-      "/products/TRP-BG-006-lifestyle.svg"
+      "products/TRP-BG-006-main.svg",
+      "products/TRP-BG-006-detail.svg",
+      "products/TRP-BG-006-lifestyle.svg"
     ],
     "colors": [
       {
@@ -6588,9 +6588,9 @@
     "description": "Designed for studio days, the Orbit Sling Bag uses recycled nylon with a leather strap and a structured base to create a everyday resilience bag. TRAPO Atelier adds a balanced silhouette and a sand palette that stays in rotation.",
     "shortDescription": "Orbit Sling Bag: a polished travel companion in sand.",
     "images": [
-      "/products/TRP-BG-007-main.svg",
-      "/products/TRP-BG-007-detail.svg",
-      "/products/TRP-BG-007-lifestyle.svg"
+      "products/TRP-BG-007-main.svg",
+      "products/TRP-BG-007-detail.svg",
+      "products/TRP-BG-007-lifestyle.svg"
     ],
     "colors": [
       {
@@ -6657,9 +6657,9 @@
     "description": "Designed for the daily commute, the Alpine Rolltop Backpack uses weatherproof recycled fabric and reinforced seams to create a everyday resilience bag. TRAPO Labs adds a balanced silhouette and a black palette that stays in rotation.",
     "shortDescription": "Alpine Rolltop Backpack: a beautifully practical shape in black.",
     "images": [
-      "/products/TRP-BG-008-main.svg",
-      "/products/TRP-BG-008-detail.svg",
-      "/products/TRP-BG-008-lifestyle.svg"
+      "products/TRP-BG-008-main.svg",
+      "products/TRP-BG-008-detail.svg",
+      "products/TRP-BG-008-lifestyle.svg"
     ],
     "colors": [
       {
@@ -6726,9 +6726,9 @@
     "description": "TRAPO Atelier crafted the Porto Leather Satchel from vegetable-tanned leather with a soft suede lining. The result is a quiet utility bag for weekend trips, finished with a roomy interior and black tones.",
     "shortDescription": "Porto Leather Satchel: a polished travel companion in black.",
     "images": [
-      "/products/TRP-BG-009-main.svg",
-      "/products/TRP-BG-009-detail.svg",
-      "/products/TRP-BG-009-lifestyle.svg"
+      "products/TRP-BG-009-main.svg",
+      "products/TRP-BG-009-detail.svg",
+      "products/TRP-BG-009-lifestyle.svg"
     ],
     "colors": [
       {
@@ -6799,9 +6799,9 @@
     "description": "TRAPO Studio crafted the Transit Messenger Bag from waxed canvas with leather binding with reinforced seams. The result is a quiet utility bag for city exploring, finished with a roomy interior and olive tones.",
     "shortDescription": "Transit Messenger Bag: a polished travel companion in olive.",
     "images": [
-      "/products/TRP-BG-010-main.svg",
-      "/products/TRP-BG-010-detail.svg",
-      "/products/TRP-BG-010-lifestyle.svg"
+      "products/TRP-BG-010-main.svg",
+      "products/TRP-BG-010-detail.svg",
+      "products/TRP-BG-010-lifestyle.svg"
     ],
     "colors": [
       {
@@ -6870,9 +6870,9 @@
     "description": "TRAPO Heritage crafted the Cove Bucket Bag from soft calfskin with a suede lining with reinforced seams. The result is a everyday resilience bag for city exploring, finished with a balanced silhouette and olive tones.",
     "shortDescription": "Cove Bucket Bag: a polished travel companion in olive.",
     "images": [
-      "/products/TRP-BG-011-main.svg",
-      "/products/TRP-BG-011-detail.svg",
-      "/products/TRP-BG-011-lifestyle.svg"
+      "products/TRP-BG-011-main.svg",
+      "products/TRP-BG-011-detail.svg",
+      "products/TRP-BG-011-lifestyle.svg"
     ],
     "colors": [
       {
@@ -6946,9 +6946,9 @@
     "description": "Designed for studio days, the Field Utility Belt Bag uses ripstop nylon with a leather patch and a structured base to create a everyday resilience bag. TRAPO Atelier adds a roomy interior and a canvas palette that stays in rotation.",
     "shortDescription": "Field Utility Belt Bag: a polished travel companion in canvas.",
     "images": [
-      "/products/TRP-BG-012-main.svg",
-      "/products/TRP-BG-012-detail.svg",
-      "/products/TRP-BG-012-lifestyle.svg"
+      "products/TRP-BG-012-main.svg",
+      "products/TRP-BG-012-detail.svg",
+      "products/TRP-BG-012-lifestyle.svg"
     ],
     "colors": [
       {
@@ -7017,9 +7017,9 @@
     "description": "The Luxe Clutch brings suede with a silk lining to studio days with reinforced seams. Finished by TRAPO Sport in navy, it pairs considered organisation with a comfortable strap drop.",
     "shortDescription": "Luxe Clutch: a polished travel companion in navy.",
     "images": [
-      "/products/TRP-BG-013-main.svg",
-      "/products/TRP-BG-013-detail.svg",
-      "/products/TRP-BG-013-lifestyle.svg"
+      "products/TRP-BG-013-main.svg",
+      "products/TRP-BG-013-detail.svg",
+      "products/TRP-BG-013-lifestyle.svg"
     ],
     "colors": [
       {
@@ -7093,9 +7093,9 @@
     "description": "Designed for studio days, the Trail Hiking Pack uses reinforced ripstop with a rain cover and reinforced seams to create a quiet utility bag. TRAPO Studio adds a balanced silhouette and a black palette that stays in rotation.",
     "shortDescription": "Trail Hiking Pack: a refined everyday carry in black.",
     "images": [
-      "/products/TRP-BG-014-main.svg",
-      "/products/TRP-BG-014-detail.svg",
-      "/products/TRP-BG-014-lifestyle.svg"
+      "products/TRP-BG-014-main.svg",
+      "products/TRP-BG-014-detail.svg",
+      "products/TRP-BG-014-lifestyle.svg"
     ],
     "colors": [
       {
@@ -7166,9 +7166,9 @@
     "description": "The Ember Soy Candle brings soy wax with a cotton wick to unhurried weekends with a warm matte glaze. Finished by TRAPO Heritage in ink, it pairs everyday warmth with a practical size.",
     "shortDescription": "Ember Soy Candle: a calm daily ritual in ink.",
     "images": [
-      "/products/TRP-LF-001-main.svg",
-      "/products/TRP-LF-001-detail.svg",
-      "/products/TRP-LF-001-lifestyle.svg"
+      "products/TRP-LF-001-main.svg",
+      "products/TRP-LF-001-detail.svg",
+      "products/TRP-LF-001-lifestyle.svg"
     ],
     "colors": [
       {
@@ -7238,9 +7238,9 @@
     "description": "Designed for quiet evenings, the Atelier Ceramic Mug uses stoneware with a matte glaze and a subtle natural fragrance to create a considered simplicity object. TRAPO Labs adds a balanced proportion and a oat palette that stays in rotation.",
     "shortDescription": "Atelier Ceramic Mug: a warm home accent in oat.",
     "images": [
-      "/products/TRP-LF-002-main.svg",
-      "/products/TRP-LF-002-detail.svg",
-      "/products/TRP-LF-002-lifestyle.svg"
+      "products/TRP-LF-002-main.svg",
+      "products/TRP-LF-002-detail.svg",
+      "products/TRP-LF-002-lifestyle.svg"
     ],
     "colors": [
       {
@@ -7309,9 +7309,9 @@
     "description": "TRAPO Sport crafted the Still Reed Diffuser from glass vessel with natural reeds with a softly textured surface. The result is a everyday warmth object for a well-set table, finished with a practical size and terracotta tones.",
     "shortDescription": "Still Reed Diffuser: a calm daily ritual in terracotta.",
     "images": [
-      "/products/TRP-LF-003-main.svg",
-      "/products/TRP-LF-003-detail.svg",
-      "/products/TRP-LF-003-lifestyle.svg"
+      "products/TRP-LF-003-main.svg",
+      "products/TRP-LF-003-detail.svg",
+      "products/TRP-LF-003-lifestyle.svg"
     ],
     "colors": [
       {
@@ -7381,9 +7381,9 @@
     "description": "TRAPO Labs crafted the Weave Merino Throw from brushed merino wool with a hand-poured finish. The result is a quiet beauty object for a well-set table, finished with a practical size and sage tones.",
     "shortDescription": "Weave Merino Throw: a calm daily ritual in sage.",
     "images": [
-      "/products/TRP-LF-004-main.svg",
-      "/products/TRP-LF-004-detail.svg",
-      "/products/TRP-LF-004-lifestyle.svg"
+      "products/TRP-LF-004-main.svg",
+      "products/TRP-LF-004-detail.svg",
+      "products/TRP-LF-004-lifestyle.svg"
     ],
     "colors": [
       {
@@ -7450,9 +7450,9 @@
     "description": "The Linen Guest Notebook brings linen-wrapped cover with cream pages to quiet evenings with a subtle natural fragrance. Finished by TRAPO Atelier in charcoal, it pairs considered simplicity with a practical size.",
     "shortDescription": "Linen Guest Notebook: a warm home accent in charcoal.",
     "images": [
-      "/products/TRP-LF-005-main.svg",
-      "/products/TRP-LF-005-detail.svg",
-      "/products/TRP-LF-005-lifestyle.svg"
+      "products/TRP-LF-005-main.svg",
+      "products/TRP-LF-005-detail.svg",
+      "products/TRP-LF-005-lifestyle.svg"
     ],
     "colors": [
       {
@@ -7521,9 +7521,9 @@
     "description": "Designed for unhurried weekends, the Ritual Tea Set uses hand-thrown stoneware and a subtle natural fragrance to create a quiet beauty object. TRAPO Studio adds a balanced proportion and a charcoal palette that stays in rotation.",
     "shortDescription": "Ritual Tea Set: a warm home accent in charcoal.",
     "images": [
-      "/products/TRP-LF-006-main.svg",
-      "/products/TRP-LF-006-detail.svg",
-      "/products/TRP-LF-006-lifestyle.svg"
+      "products/TRP-LF-006-main.svg",
+      "products/TRP-LF-006-detail.svg",
+      "products/TRP-LF-006-lifestyle.svg"
     ],
     "colors": [
       {
@@ -7588,9 +7588,9 @@
     "description": "Designed for a well-set table, the Forma Ceramic Vase uses wheel-thrown earthenware and a subtle natural fragrance to create a quiet beauty object. TRAPO Atelier adds a gentle presence and a ink palette that stays in rotation.",
     "shortDescription": "Forma Ceramic Vase: a warm home accent in ink.",
     "images": [
-      "/products/TRP-LF-007-main.svg",
-      "/products/TRP-LF-007-detail.svg",
-      "/products/TRP-LF-007-lifestyle.svg"
+      "products/TRP-LF-007-main.svg",
+      "products/TRP-LF-007-detail.svg",
+      "products/TRP-LF-007-lifestyle.svg"
     ],
     "colors": [
       {
@@ -7659,9 +7659,9 @@
     "description": "TRAPO Studio crafted the Studio Scented Candle from coconut-soy wax blend with a softly textured surface. The result is a considered simplicity object for unhurried weekends, finished with a gentle presence and oat tones.",
     "shortDescription": "Studio Scented Candle: a thoughtful little luxury in oat.",
     "images": [
-      "/products/TRP-LF-008-main.svg",
-      "/products/TRP-LF-008-detail.svg",
-      "/products/TRP-LF-008-lifestyle.svg"
+      "products/TRP-LF-008-main.svg",
+      "products/TRP-LF-008-detail.svg",
+      "products/TRP-LF-008-lifestyle.svg"
     ],
     "colors": [
       {
@@ -7731,9 +7731,9 @@
     "description": "TRAPO Studio crafted the Terra Stoneware Bowl from reactive-glaze stoneware with a softly textured surface. The result is a considered simplicity object for quiet evenings, finished with a practical size and ink tones.",
     "shortDescription": "Terra Stoneware Bowl: a thoughtful little luxury in ink.",
     "images": [
-      "/products/TRP-LF-009-main.svg",
-      "/products/TRP-LF-009-detail.svg",
-      "/products/TRP-LF-009-lifestyle.svg"
+      "products/TRP-LF-009-main.svg",
+      "products/TRP-LF-009-detail.svg",
+      "products/TRP-LF-009-lifestyle.svg"
     ],
     "colors": [
       {
@@ -7796,9 +7796,9 @@
     "description": "The Archive Leather Journal brings refillable leather cover to slow mornings with a subtle natural fragrance. Finished by TRAPO Atelier in ink, it pairs everyday warmth with a practical size.",
     "shortDescription": "Archive Leather Journal: a warm home accent in ink.",
     "images": [
-      "/products/TRP-LF-010-main.svg",
-      "/products/TRP-LF-010-detail.svg",
-      "/products/TRP-LF-010-lifestyle.svg"
+      "products/TRP-LF-010-main.svg",
+      "products/TRP-LF-010-detail.svg",
+      "products/TRP-LF-010-lifestyle.svg"
     ],
     "colors": [
       {
@@ -7868,9 +7868,9 @@
     "description": "Designed for quiet evenings, the Linen Table Runner uses washed Belgian linen and a hand-poured finish to create a quiet beauty object. TRAPO Labs adds a balanced proportion and a terracotta palette that stays in rotation.",
     "shortDescription": "Linen Table Runner: a thoughtful little luxury in terracotta.",
     "images": [
-      "/products/TRP-LF-011-main.svg",
-      "/products/TRP-LF-011-detail.svg",
-      "/products/TRP-LF-011-lifestyle.svg"
+      "products/TRP-LF-011-main.svg",
+      "products/TRP-LF-011-detail.svg",
+      "products/TRP-LF-011-lifestyle.svg"
     ],
     "colors": [
       {
@@ -7937,9 +7937,9 @@
     "description": "Designed for slow mornings, the Grove Botanical Print uses archival pigment on cotton paper and a subtle natural fragrance to create a considered simplicity object. TRAPO Atelier adds a gentle presence and a ivory palette that stays in rotation.",
     "shortDescription": "Grove Botanical Print: a warm home accent in ivory.",
     "images": [
-      "/products/TRP-LF-012-main.svg",
-      "/products/TRP-LF-012-detail.svg",
-      "/products/TRP-LF-012-lifestyle.svg"
+      "products/TRP-LF-012-main.svg",
+      "products/TRP-LF-012-detail.svg",
+      "products/TRP-LF-012-lifestyle.svg"
     ],
     "colors": [
       {
@@ -8014,9 +8014,9 @@
     "description": "Designed for slow mornings, the Daily Ritual Tumbler uses double-wall stainless steel and a subtle natural fragrance to create a considered simplicity object. TRAPO Studio adds a practical size and a clay palette that stays in rotation.",
     "shortDescription": "Daily Ritual Tumbler: a calm daily ritual in clay.",
     "images": [
-      "/products/TRP-LF-013-main.svg",
-      "/products/TRP-LF-013-detail.svg",
-      "/products/TRP-LF-013-lifestyle.svg"
+      "products/TRP-LF-013-main.svg",
+      "products/TRP-LF-013-detail.svg",
+      "products/TRP-LF-013-lifestyle.svg"
     ],
     "colors": [
       {
@@ -8086,9 +8086,9 @@
     "description": "The Cashmere Eye Mask brings cashmere facing with a silk backing to slow mornings with a softly textured surface. Finished by TRAPO Studio in charcoal, it pairs considered simplicity with a practical size.",
     "shortDescription": "Cashmere Eye Mask: a thoughtful little luxury in charcoal.",
     "images": [
-      "/products/TRP-LF-014-main.svg",
-      "/products/TRP-LF-014-detail.svg",
-      "/products/TRP-LF-014-lifestyle.svg"
+      "products/TRP-LF-014-main.svg",
+      "products/TRP-LF-014-detail.svg",
+      "products/TRP-LF-014-lifestyle.svg"
     ],
     "colors": [
       {
@@ -8160,9 +8160,9 @@
     "description": "The Forge Adjustable Dumbbell brings cast iron with a rubberised coating to recovery days with a secure, balanced grip. Finished by TRAPO Atelier in lime, it pairs thoughtful support with a secure feel.",
     "shortDescription": "Forge Adjustable Dumbbell: a reliable training partner in lime.",
     "images": [
-      "/products/TRP-SP-001-main.svg",
-      "/products/TRP-SP-001-detail.svg",
-      "/products/TRP-SP-001-lifestyle.svg"
+      "products/TRP-SP-001-main.svg",
+      "products/TRP-SP-001-detail.svg",
+      "products/TRP-SP-001-lifestyle.svg"
     ],
     "colors": [
       {
@@ -8236,9 +8236,9 @@
     "description": "TRAPO Heritage crafted the Flow Yoga Mat from natural rubber with a microfibre top with a secure, balanced grip. The result is a steady performance essential for outdoor training, finished with a comfortable hold and coral tones.",
     "shortDescription": "Flow Yoga Mat: a purposeful piece of kit in coral.",
     "images": [
-      "/products/TRP-SP-002-main.svg",
-      "/products/TRP-SP-002-detail.svg",
-      "/products/TRP-SP-002-lifestyle.svg"
+      "products/TRP-SP-002-main.svg",
+      "products/TRP-SP-002-detail.svg",
+      "products/TRP-SP-002-lifestyle.svg"
     ],
     "colors": [
       {
@@ -8305,9 +8305,9 @@
     "description": "Designed for morning sessions, the Apex Training Ball uses textured rubber shell and a supportive construction to create a steady performance essential. TRAPO Heritage adds a natural range of motion and a cobalt palette that stays in rotation.",
     "shortDescription": "Apex Training Ball: a reliable training partner in cobalt.",
     "images": [
-      "/products/TRP-SP-003-main.svg",
-      "/products/TRP-SP-003-detail.svg",
-      "/products/TRP-SP-003-lifestyle.svg"
+      "products/TRP-SP-003-main.svg",
+      "products/TRP-SP-003-detail.svg",
+      "products/TRP-SP-003-lifestyle.svg"
     ],
     "colors": [
       {
@@ -8377,9 +8377,9 @@
     "description": "The Hydro Insulated Bottle brings double-wall vacuum stainless steel to daily movement with a lightweight feel. Finished by TRAPO Heritage in lime, it pairs thoughtful support with a secure feel.",
     "shortDescription": "Hydro Insulated Bottle: a purposeful piece of kit in lime.",
     "images": [
-      "/products/TRP-SP-004-main.svg",
-      "/products/TRP-SP-004-detail.svg",
-      "/products/TRP-SP-004-lifestyle.svg"
+      "products/TRP-SP-004-main.svg",
+      "products/TRP-SP-004-detail.svg",
+      "products/TRP-SP-004-lifestyle.svg"
     ],
     "colors": [
       {
@@ -8450,9 +8450,9 @@
     "description": "TRAPO Sport crafted the Velocity Training Shoe from engineered mesh with a stable base with a hard-wearing finish. The result is a thoughtful support essential for daily movement, finished with a secure feel and grey tones.",
     "shortDescription": "Velocity Training Shoe: a considered movement essential in grey.",
     "images": [
-      "/products/TRP-SP-005-main.svg",
-      "/products/TRP-SP-005-detail.svg",
-      "/products/TRP-SP-005-lifestyle.svg"
+      "products/TRP-SP-005-main.svg",
+      "products/TRP-SP-005-detail.svg",
+      "products/TRP-SP-005-lifestyle.svg"
     ],
     "colors": [
       {
@@ -8524,9 +8524,9 @@
     "description": "Designed for outdoor training, the Studio Resistance Bands uses natural latex with textile sleeves and a hard-wearing finish to create a steady performance essential. TRAPO Studio adds a natural range of motion and a teal palette that stays in rotation.",
     "shortDescription": "Studio Resistance Bands: a considered movement essential in teal.",
     "images": [
-      "/products/TRP-SP-006-main.svg",
-      "/products/TRP-SP-006-detail.svg",
-      "/products/TRP-SP-006-lifestyle.svg"
+      "products/TRP-SP-006-main.svg",
+      "products/TRP-SP-006-detail.svg",
+      "products/TRP-SP-006-lifestyle.svg"
     ],
     "colors": [
       {
@@ -8600,9 +8600,9 @@
     "description": "TRAPO Sport crafted the Ridge Trail Shorts from four-way stretch recycled nylon with a lightweight feel. The result is a quiet durability essential for daily movement, finished with a natural range of motion and black tones.",
     "shortDescription": "Ridge Trail Shorts: a reliable training partner in black.",
     "images": [
-      "/products/TRP-SP-007-main.svg",
-      "/products/TRP-SP-007-detail.svg",
-      "/products/TRP-SP-007-lifestyle.svg"
+      "products/TRP-SP-007-main.svg",
+      "products/TRP-SP-007-detail.svg",
+      "products/TRP-SP-007-lifestyle.svg"
     ],
     "colors": [
       {
@@ -8680,9 +8680,9 @@
     "description": "TRAPO Atelier crafted the Pulse Jump Rope from braided cotton rope with aluminium handles with a supportive construction. The result is a steady performance essential for recovery days, finished with a comfortable hold and cobalt tones.",
     "shortDescription": "Pulse Jump Rope: a purposeful piece of kit in cobalt.",
     "images": [
-      "/products/TRP-SP-008-main.svg",
-      "/products/TRP-SP-008-detail.svg",
-      "/products/TRP-SP-008-lifestyle.svg"
+      "products/TRP-SP-008-main.svg",
+      "products/TRP-SP-008-detail.svg",
+      "products/TRP-SP-008-lifestyle.svg"
     ],
     "colors": [
       {
@@ -8752,9 +8752,9 @@
     "description": "The Core Kettlebell brings cast iron with a powder coat to outdoor training with a hard-wearing finish. Finished by TRAPO Studio in lime, it pairs thoughtful support with a comfortable hold.",
     "shortDescription": "Core Kettlebell: a reliable training partner in lime.",
     "images": [
-      "/products/TRP-SP-009-main.svg",
-      "/products/TRP-SP-009-detail.svg",
-      "/products/TRP-SP-009-lifestyle.svg"
+      "products/TRP-SP-009-main.svg",
+      "products/TRP-SP-009-detail.svg",
+      "products/TRP-SP-009-lifestyle.svg"
     ],
     "colors": [
       {
@@ -8829,9 +8829,9 @@
     "description": "The Terra Foam Roller brings high-density EVA foam to morning sessions with a supportive construction. Finished by TRAPO Studio in lime, it pairs steady performance with a comfortable hold.",
     "shortDescription": "Terra Foam Roller: a considered movement essential in lime.",
     "images": [
-      "/products/TRP-SP-010-main.svg",
-      "/products/TRP-SP-010-detail.svg",
-      "/products/TRP-SP-010-lifestyle.svg"
+      "products/TRP-SP-010-main.svg",
+      "products/TRP-SP-010-detail.svg",
+      "products/TRP-SP-010-lifestyle.svg"
     ],
     "colors": [
       {
@@ -8906,9 +8906,9 @@
     "description": "Designed for outdoor training, the Grip Weight Plate uses rubber-coated cast iron and a supportive construction to create a quiet durability essential. TRAPO Sport adds a secure feel and a black palette that stays in rotation.",
     "shortDescription": "Grip Weight Plate: a considered movement essential in black.",
     "images": [
-      "/products/TRP-SP-011-main.svg",
-      "/products/TRP-SP-011-detail.svg",
-      "/products/TRP-SP-011-lifestyle.svg"
+      "products/TRP-SP-011-main.svg",
+      "products/TRP-SP-011-detail.svg",
+      "products/TRP-SP-011-lifestyle.svg"
     ],
     "colors": [
       {
@@ -8974,9 +8974,9 @@
     "description": "The Balance Stability Pad brings anti-burst PVC with a non-slip base to outdoor training with a lightweight feel. Finished by TRAPO Labs in teal, it pairs steady performance with a comfortable hold.",
     "shortDescription": "Balance Stability Pad: a considered movement essential in teal.",
     "images": [
-      "/products/TRP-SP-012-main.svg",
-      "/products/TRP-SP-012-detail.svg",
-      "/products/TRP-SP-012-lifestyle.svg"
+      "products/TRP-SP-012-main.svg",
+      "products/TRP-SP-012-detail.svg",
+      "products/TRP-SP-012-lifestyle.svg"
     ],
     "colors": [
       {
@@ -9047,9 +9047,9 @@
     "description": "The Motion Compression Tee brings moisture-wicking recycled polyester to outdoor training with a supportive construction. Finished by TRAPO Studio in cobalt, it pairs quiet durability with a secure feel.",
     "shortDescription": "Motion Compression Tee: a reliable training partner in cobalt.",
     "images": [
-      "/products/TRP-SP-013-main.svg",
-      "/products/TRP-SP-013-detail.svg",
-      "/products/TRP-SP-013-lifestyle.svg"
+      "products/TRP-SP-013-main.svg",
+      "products/TRP-SP-013-detail.svg",
+      "products/TRP-SP-013-lifestyle.svg"
     ],
     "colors": [
       {
@@ -9119,9 +9119,9 @@
     "description": "Designed for outdoor training, the Summit Chalk Bag uses waxed canvas with a fleece lining and a secure, balanced grip to create a steady performance essential. TRAPO Heritage adds a comfortable hold and a charcoal palette that stays in rotation.",
     "shortDescription": "Summit Chalk Bag: a considered movement essential in charcoal.",
     "images": [
-      "/products/TRP-SP-014-main.svg",
-      "/products/TRP-SP-014-detail.svg",
-      "/products/TRP-SP-014-lifestyle.svg"
+      "products/TRP-SP-014-main.svg",
+      "products/TRP-SP-014-detail.svg",
+      "products/TRP-SP-014-lifestyle.svg"
     ],
     "colors": [
       {

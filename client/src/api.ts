@@ -2,7 +2,7 @@ import type { CatalogResponse, Collection, Product, StoreMeta } from './types'
 import seedProducts from './data/seedProducts.json'
 import seedCollections from './data/seedCollections.json'
 
-const BASE = '/api/store'
+const BASE = new URL('api/store', document.baseURI).href.replace(/\/$/, '')
 export const STORAGE = {
   products: 'trapo.products.v1',
   collections: 'trapo.collections.v1',

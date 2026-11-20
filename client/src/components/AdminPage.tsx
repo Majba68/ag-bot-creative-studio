@@ -59,7 +59,7 @@ function AdminLogin() {
   return (
     <main className="admin-login">
       <div className="admin-login__card">
-        <img src="/brand/trapo-mascot.jpeg" alt="TRAPO mascot" />
+        <img src="brand/trapo-mascot.jpeg" alt="TRAPO mascot" />
         <span className="eyebrow">TRAPO Control</span>
         <h1>Admin dashboard</h1>
         <p>{source === 'api' ? 'Enter the administrator password configured for this store.' : 'No backend is configured. Manage the catalogue in this browser.'}</p>
@@ -239,7 +239,7 @@ function CollectionForm({ initial, products, onSave, onCancel }: {
         id: draft.id || `col-${Date.now().toString(36)}`,
         name: draft.name.trim(),
         slug: draft.slug || draft.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
-        image: draft.image || products.find((product) => draft.productIds.includes(product.id))?.images[0] || '/brand/trapo-mascot.jpeg',
+        image: draft.image || products.find((product) => draft.productIds.includes(product.id))?.images[0] || 'brand/trapo-mascot.jpeg',
       })
     } catch (err) { setError(err instanceof Error ? err.message : 'Could not save the collection.') }
     finally { setBusy(false) }
@@ -348,7 +348,7 @@ export function AdminPage() {
     <main className="admin-shell">
       <div className="admin-sidebar">
         <button type="button" className="admin-sidebar__brand" onClick={() => window.location.assign('/')}>
-          <img src="/brand/trapo-mascot.jpeg" alt="" /><span>TRAPO<span>.</span><small>Control</small></span>
+          <img src="brand/trapo-mascot.jpeg" alt="" /><span>TRAPO<span>.</span><small>Control</small></span>
         </button>
         <nav>
           {nav.map((item) => (

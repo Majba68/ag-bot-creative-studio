@@ -30,7 +30,7 @@ function Hero() {
         </div>
         <div className="hero__visual">
           <div className="hero__halo" />
-          <div className="hero__mascot"><img src="/brand/trapo-mascot.jpeg" alt="TRAPO mascot" /></div>
+          <div className="hero__mascot"><img src="brand/trapo-mascot.jpeg" alt="TRAPO mascot" /></div>
           {heroProducts.map((product, index) => product && (
             <div key={product.id} className={`hero__float hero__float--${index + 1}`}>
               <img src={product.images[0]} alt={product.name} />
@@ -126,7 +126,7 @@ function Story() {
     <section className="story-section">
       <div className="container story-section__inner">
         <div className="story-section__visual">
-          <div className="story-section__frame"><img src="/brand/trapo-mascot.jpeg" alt="The TRAPO mascot" /></div>
+          <div className="story-section__frame"><img src="brand/trapo-mascot.jpeg" alt="The TRAPO mascot" /></div>
           <span className="story-section__caption">The spirit of TRAPO — curious, considered, always in motion.</span>
         </div>
         <div className="story-section__copy">

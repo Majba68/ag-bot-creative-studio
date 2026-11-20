@@ -4,7 +4,7 @@
     "name": "The Studio Edit",
     "slug": "the-studio-edit",
     "description": "Considered layers and quiet details for days spent making things.",
-    "image": "/products/TRP-CL-001-main.svg",
+    "image": "products/TRP-CL-001-main.svg",
     "productIds": [
       "TRP-CL-001",
       "TRP-CL-011",
@@ -32,7 +32,7 @@
     "name": "Weekend Uniform",
     "slug": "weekend-uniform",
     "description": "Relaxed pieces built for slow mornings and unplanned plans.",
-    "image": "/products/TRP-CL-005-main.svg",
+    "image": "products/TRP-CL-005-main.svg",
     "productIds": [
       "TRP-CL-005",
       "TRP-CL-012",
@@ -59,7 +59,7 @@
     "name": "The Modern Desk",
     "slug": "the-modern-desk",
     "description": "Tools and accessories that bring intention to the workspace.",
-    "image": "/products/TRP-CL-006-main.svg",
+    "image": "products/TRP-CL-006-main.svg",
     "productIds": [
       "TRP-CL-006",
       "TRP-CL-013",
@@ -86,7 +86,7 @@
     "name": "Golden Hour",
     "slug": "golden-hour",
     "description": "Warm tones and soft textures for the end of the day.",
-    "image": "/products/TRP-CL-007-main.svg",
+    "image": "products/TRP-CL-007-main.svg",
     "productIds": [
       "TRP-CL-007",
       "TRP-CL-014",
@@ -113,7 +113,7 @@
     "name": "City Explorer",
     "slug": "city-explorer",
     "description": "Practical, polished essentials for moving through the city.",
-    "image": "/products/TRP-CL-008-main.svg",
+    "image": "products/TRP-CL-008-main.svg",
     "productIds": [
       "TRP-CL-008",
       "TRP-SH-001",
@@ -140,7 +140,7 @@
     "name": "Performance Lab",
     "slug": "performance-lab",
     "description": "Technical pieces tested for movement, recovery, and routine.",
-    "image": "/products/TRP-CL-009-main.svg",
+    "image": "products/TRP-CL-009-main.svg",
     "productIds": [
       "TRP-CL-009",
       "TRP-SH-003",

@@ -26,7 +26,7 @@ export function ProductPage({ id }: { id: string }) {
 
   const saved = wishlist.includes(product.id)
   const related = products.filter((item) => item.category === product.category && item.id !== product.id).slice(0, 4)
-  const images = product.images.length ? product.images : ['/brand/trapo-mascot.jpeg']
+  const images = product.images.length ? product.images : ['brand/trapo-mascot.jpeg']
 
   const buyNow = () => {
     addToCart(product, { color, size, qty, quiet: true })

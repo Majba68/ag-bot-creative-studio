@@ -91,7 +91,7 @@ export function AboutPage() {
       </div>
       <div className="container page-pad about-content">
         <div className="about-story">
-          <img src="/brand/trapo-mascot.jpeg" alt="TRAPO mascot" />
+          <img src="brand/trapo-mascot.jpeg" alt="TRAPO mascot" />
           <div>
             <span className="eyebrow">Our point of view</span>
             <h2>Curated for real life.</h2>

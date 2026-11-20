@@ -6,17 +6,29 @@ export interface RouteState {
   hash: string
 }
 
+// GitHub Pages (and other static hosts) only serve the root document. Keeping the
+// app route in the URL hash makes every route/shareable link reload correctly.
+const PREFIX = '#/'
+
+function toHash(to: string): string {
+  const raw = to.startsWith('/') ? to : `/${to}`
+  return `${PREFIX}${raw.replace(/^\//, '')}`
+}
+
 function parse(): RouteState {
-  return {
-    path: window.location.pathname.replace(/\/+$/, '') || '/',
-    query: new URLSearchParams(window.location.search),
-    hash: window.location.hash,
-  }
+  const raw = window.location.hash.startsWith(PREFIX)
+    ? window.location.hash.slice(PREFIX.length)
+    : '/'
+  const [routePart, anchor = ''] = raw.split('#')
+  const [pathname, search = ''] = routePart.split('?')
+  const path = pathname.replace(/\/+$/, '') || '/'
+  return { path, query: new URLSearchParams(search), hash: anchor ? `#${anchor}` : '' }
 }
 
 export function navigate(to: string, replace = false) {
-  if (replace) window.history.replaceState({}, '', to)
-  else window.history.pushState({}, '', to)
+  const url = `${window.location.pathname}${window.location.search}${toHash(to)}`
+  if (replace) window.history.replaceState({}, '', url)
+  else window.history.pushState({}, '', url)
   window.dispatchEvent(new PopStateEvent('popstate'))
 }
 
@@ -25,7 +37,11 @@ export function useRoute(): RouteState {
   useEffect(() => {
     const onChange = () => setRoute(parse())
     window.addEventListener('popstate', onChange)
-    return () => window.removeEventListener('popstate', onChange)
+    window.addEventListener('hashchange', onChange)
+    return () => {
+      window.removeEventListener('popstate', onChange)
+      window.removeEventListener('hashchange', onChange)
+    }
   }, [])
   return route
 }
@@ -42,7 +58,7 @@ export function Link({ to, children, onClick, ...rest }: LinkProps) {
     event.preventDefault()
     navigate(to)
   }
-  return <a href={to} onClick={handle} {...rest}>{children}</a>
+  return <a href={toHash(to)} onClick={handle} {...rest}>{children}</a>
 }
 
 export function buildQuery(base: string, values: Record<string, string | number | boolean | null | undefined>) {

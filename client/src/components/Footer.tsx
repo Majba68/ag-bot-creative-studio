@@ -45,7 +45,7 @@ export function Footer() {
         <div className="footer-top">
           <div className="footer-brand">
             <Link to="/" className="brand brand--footer">
-              <img src="/brand/trapo-mascot.jpeg" alt="TRAPO mascot" />
+              <img src="brand/trapo-mascot.jpeg" alt="TRAPO mascot" />
               <span className="brand__word">TRAPO<span className="brand__period">.</span></span>
             </Link>
             <p>Discover your style. Explore everything. A considered destination for modern living — thoughtfully curated, beautifully made.</p>

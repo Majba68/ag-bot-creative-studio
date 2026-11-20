@@ -60,7 +60,7 @@ export function Header() {
           </button>
 
           <Link to="/" className="brand" aria-label="TRAPO home">
-            <img src="/brand/trapo-mascot.jpeg" alt="TRAPO mascot" />
+            <img src="brand/trapo-mascot.jpeg" alt="TRAPO mascot" />
             <span className="brand__word">TRAPO<span className="brand__period">.</span></span>
           </Link>
 

@@ -14,7 +14,7 @@ import { AboutPage, CollectionDetailPage, CollectionsPage, NotFoundPage, Wishlis
 function LoadingScreen() {
   return (
     <div className="loading-screen">
-      <img src="/brand/trapo-mascot.jpeg" alt="TRAPO" />
+      <img src="brand/trapo-mascot.jpeg" alt="TRAPO" />
       <span className="loading-screen__word">TRAPO<span>.</span></span>
       <p>Discover your style.</p>
       <div className="loading-screen__bar"><i /></div>
