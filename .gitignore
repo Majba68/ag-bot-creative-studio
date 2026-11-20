@@ -1,11 +1,8 @@
 node_modules/
 dist/
-.env
-server/.env
+.env*
 .vercel/
 *.local
 *.log
 .DS_Store
 server/data/trapo/
-
-.vercel

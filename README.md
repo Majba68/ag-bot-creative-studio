@@ -15,6 +15,13 @@ npm run dev
 
 The client talks to `/api/store` first. If the API is unavailable, it falls back to the bundled sample catalogue and `localStorage` so the storefront and admin remain usable as an offline demo. Every generated item is flagged as a sample product in the UI.
 
+### Live deployments
+
+- **Full stack (shared API + admin):** https://ag-bot-creative-studio.vercel.app — catalog, cart, wishlist, collections and password-protected admin backed by the deployed `/api/store`. Admin sign-in uses the `ADMIN_PASSWORD` configured as a sensitive production environment variable in Vercel; unauthenticated writes return `401`.
+- **Static mirror (no backend):** https://majba68.github.io/ag-bot-creative-studio/ — same storefront UI using bundled demo data and browser `localStorage`, so edits stay in that browser only.
+
+Both are demonstrations: checkout never takes payment, creates real orders, or ships goods. Do not deploy a public API without `ADMIN_PASSWORD` and `ADMIN_SECRET`.
+
 ### Catalogue
 
 - `scripts/generate-products.mjs` deterministically generates the 126 sample products, 6 collections and unique SVG artwork.
