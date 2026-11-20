@@ -21,7 +21,8 @@ function parse(): RouteState {
     : '/'
   const [routePart, anchor = ''] = raw.split('#')
   const [pathname, search = ''] = routePart.split('?')
-  const path = pathname.replace(/\/+$/, '') || '/'
+  const withSlash = pathname.startsWith('/') ? pathname : `/${pathname}`
+  const path = withSlash.replace(/\/+$/, '') || '/'
   return { path, query: new URLSearchParams(search), hash: anchor ? `#${anchor}` : '' }
 }
 

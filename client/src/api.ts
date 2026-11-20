@@ -3,6 +3,9 @@ import seedProducts from './data/seedProducts.json'
 import seedCollections from './data/seedCollections.json'
 
 const BASE = new URL('api/store', document.baseURI).href.replace(/\/$/, '')
+// GitHub Pages serves only static files. Skip API probes there and use the
+// bundled demo catalog instead of producing console 404s.
+const STATIC_HOST = typeof window !== 'undefined' && /\.github\.io$/.test(window.location.hostname)
 export const STORAGE = {
   products: 'trapo.products.v1',
   collections: 'trapo.collections.v1',
@@ -60,6 +63,7 @@ async function withTimeout<T>(promise: Promise<T>, ms = 5000): Promise<T> {
 }
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
+  if (STATIC_HOST) throw new Error('Static demo mode')
   const response = await withTimeout(
     fetch(`${BASE}${path}`, {
       ...init,
@@ -117,7 +121,7 @@ export async function adminSession(token: string | null): Promise<{ authenticate
 }
 
 export async function apiSaveProduct(product: Product, token: string | null): Promise<Product> {
-  const exists = product.id && (await fetch(`${BASE}/products/${encodeURIComponent(product.id)}`).then((r) => r.ok).catch(() => false))
+  const exists = product.id && !STATIC_HOST && (await fetch(`${BASE}/products/${encodeURIComponent(product.id)}`).then((r) => r.ok).catch(() => false))
   const result = await request<{ product: Product }>(exists ? `/products/${encodeURIComponent(product.id)}` : '/products', {
     method: exists ? 'PUT' : 'POST',
     headers: authHeaders(token),
@@ -139,7 +143,7 @@ export async function apiDeleteDemo(token: string | null): Promise<number> {
 }
 
 export async function apiSaveCollection(collection: Collection, token: string | null): Promise<Collection> {
-  const exists = await fetch(`${BASE}/collections/${encodeURIComponent(collection.id)}`).then((r) => r.ok).catch(() => false)
+  const exists = !STATIC_HOST && (await fetch(`${BASE}/collections/${encodeURIComponent(collection.id)}`).then((r) => r.ok).catch(() => false))
   const result = await request<{ collection: Collection }>(exists ? `/collections/${encodeURIComponent(collection.id)}` : '/collections', {
     method: exists ? 'PUT' : 'POST',
     headers: authHeaders(token),
