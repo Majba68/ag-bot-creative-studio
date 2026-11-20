@@ -32,12 +32,23 @@ export function writeLocal<T>(key: string, value: T) {
   }
 }
 
+function assetPath(src: string): string {
+  if (src.startsWith('/products/') || src.startsWith('/brand/')) return src.slice(1)
+  return src
+}
+
 export function localProducts(): Product[] {
-  return read<Product[]>(STORAGE.products, seedProducts as Product[])
+  return read<Product[]>(STORAGE.products, seedProducts as Product[]).map((product) => ({
+    ...product,
+    images: product.images?.map(assetPath) || [],
+  }))
 }
 
 export function localCollections(): Collection[] {
-  return read<Collection[]>(STORAGE.collections, seedCollections as Collection[])
+  return read<Collection[]>(STORAGE.collections, seedCollections as Collection[]).map((collection) => ({
+    ...collection,
+    image: assetPath(collection.image),
+  }))
 }
 
 export function saveLocalProducts(products: Product[]) {
