@@ -14,6 +14,7 @@ import { horrorTrackingRouter } from './routes/horrorTracking.js'
 import { marketRouter } from './routes/market.js'
 import { smartChartSetupRouter } from './routes/smartChartSetup.js'
 import { supportResistanceRouter } from './routes/supportResistance.js'
+import { storeRouter } from './routes/store.js'
 import { visionRouter } from './routes/vision.js'
 
 const app = express()
@@ -45,6 +46,7 @@ app.use('/api/vision/smart-chart-setup', rateLimit(60_000, 20), smartChartSetupR
 app.use('/api/vision/support-resistance', rateLimit(60_000, 20), supportResistanceRouter)
 app.use('/api/vision', rateLimit(60_000, 20), visionRouter)
 app.use('/api/creative-studio', rateLimit(60_000, 60), creativeStudioRouter)
+app.use('/api/store', rateLimit(60_000, 120), storeRouter)
 
 app.use('/api', (_req, res) => {
   res.status(404).json({ error: 'Unknown API endpoint.' })
@@ -79,6 +81,7 @@ const invokedDirectly = process.argv[1]
 if (invokedDirectly && process.env.VERCEL !== '1') {
   app.listen(config.port, () => {
     console.log(`AG BOT API listening on http://localhost:${config.port}`)
+    console.log('TRAPO Store: /api/store (catalogue and admin API)')
     console.log(`Data mode: ${dataMode.toUpperCase()}${dataMode === 'simulated' ? ' — simulated educational data' : ''}`)
     console.log(`Market data: ${hasMarketData() ? 'configured' : 'NOT configured (using simulated demo data; set TWELVEDATA_API_KEY for live prices)'}`)
     console.log(`AI service: ${hasLlm() ? `configured (${llmProvider()})` : 'NOT configured (deterministic analysis only)'}`)

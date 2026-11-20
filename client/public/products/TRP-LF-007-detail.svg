@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Forma Ceramic Vase">
+<defs>
+<linearGradient id="trp-lf-007-detail-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#cdcdcb"/><stop offset="1" stop-color="#aaa69f"/></linearGradient>
+<radialGradient id="trp-lf-007-detail-spot"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".68"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="trp-lf-007-detail-shadow"><stop offset="0" stop-color="#2E2A26" stop-opacity=".2"/><stop offset="1" stop-color="#2E2A26" stop-opacity="0"/></radialGradient>
+<pattern id="trp-lf-007-detail-grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".5" fill="#2E2A26" opacity=".07"/><circle cx="5" cy="4" r=".35" fill="#C7AD72" opacity=".11"/></pattern>
+</defs>
+<rect width="800" height="1000" fill="url(#trp-lf-007-detail-bg)"/>
+<circle cx="403" cy="362" r="372" fill="url(#trp-lf-007-detail-spot)"/>
+<rect width="800" height="1000" fill="url(#trp-lf-007-detail-grain)" opacity=".7"/>
+<path d="M0 830 L800 190 L800 1000 L0 1000 Z" fill="#C7AD72" opacity=".055"/><circle cx="694" cy="206" r="96" fill="none" stroke="#C7AD72" stroke-width="2" opacity=".35"/><line x1="84" y1="790" x2="716" y2="790" stroke="#2E2A26" stroke-width="1" stroke-linecap="round" opacity=".12"/>
+<ellipse cx="400" cy="826" rx="216" ry="30" fill="url(#trp-lf-007-detail-shadow)"/>
+<g transform="translate(-234.1 -290.6) scale(1.577)"><path d="M356 416 L444 416 Q444 470 486 520 Q526 570 500 654 Q400 692 300 654 Q274 570 314 520 Q356 470 356 416 Z" fill="#2C3340" stroke="#181c23" stroke-width="3"/><rect x="350" y="396" width="100" height="26" rx="8" fill="#212630" /><line x1="400" y1="396" x2="400" y2="300" stroke="#C7AD72" stroke-width="4" stroke-linecap="round" /><path d="M400 348 Q356 306 350 260" fill="none" stroke="#212630" stroke-width="4"/><ellipse cx="344" cy="258" rx="18" ry="34" fill="#636872" /><path d="M400 330 Q444 292 460 250" fill="none" stroke="#212630" stroke-width="4"/><ellipse cx="466" cy="248" rx="18" ry="34" fill="#636872" /><ellipse cx="400" cy="716" rx="170" ry="14" fill="#2E2A26" opacity=".08"/></g>
+<text x="58" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" letter-spacing="8" fill="#2E2A26" opacity=".88">TRAPO</text>
+<text x="742" y="70" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="3" fill="#2E2A26" opacity=".66">LIFESTYLE</text>
+<text x="58" y="948" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3" fill="#2E2A26" opacity=".5">TRP-LF-007 · EDITION 01</text>
+<line x1="58" y1="958" x2="742" y2="958" stroke="#2E2A26" stroke-width="1" opacity=".16"/>
+</svg>

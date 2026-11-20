@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Shadow Controller Pad">
+<defs>
+<linearGradient id="trp-gm-010-detail-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3ede2"/><stop offset="1" stop-color="#e2d5c0"/></linearGradient>
+<radialGradient id="trp-gm-010-detail-spot"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".68"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="trp-gm-010-detail-shadow"><stop offset="0" stop-color="#2E2A26" stop-opacity=".2"/><stop offset="1" stop-color="#2E2A26" stop-opacity="0"/></radialGradient>
+<pattern id="trp-gm-010-detail-grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".5" fill="#2E2A26" opacity=".07"/><circle cx="5" cy="4" r=".35" fill="#C7AD72" opacity=".11"/></pattern>
+</defs>
+<rect width="800" height="1000" fill="url(#trp-gm-010-detail-bg)"/>
+<circle cx="358" cy="412" r="372" fill="url(#trp-gm-010-detail-spot)"/>
+<rect width="800" height="1000" fill="url(#trp-gm-010-detail-grain)" opacity=".7"/>
+<path d="M0 830 L800 190 L800 1000 L0 1000 Z" fill="#C7AD72" opacity=".055"/><circle cx="694" cy="206" r="96" fill="none" stroke="#C7AD72" stroke-width="2" opacity=".35"/><line x1="84" y1="790" x2="716" y2="790" stroke="#2E2A26" stroke-width="1" stroke-linecap="round" opacity=".12"/>
+<ellipse cx="400" cy="826" rx="216" ry="30" fill="url(#trp-gm-010-detail-shadow)"/>
+<g transform="translate(-207.7 -262.6) scale(1.531)"><path d="M300 360 Q400 330 500 360 Q560 380 556 470 Q552 560 500 620 Q468 656 436 610 Q400 566 364 610 Q332 656 300 620 Q248 560 244 470 Q240 380 300 360 Z" fill="#D8C6A8" stroke="#776d5c" stroke-width="3"/><ellipse cx="400" cy="470" rx="116" ry="74" fill="#e2d5bf" opacity=".35"/><circle cx="322" cy="470" r="24" fill="#a2957e" /><circle cx="322" cy="470" r="12" fill="#ece3d4" /><circle cx="478" cy="494" r="24" fill="#a2957e" /><circle cx="478" cy="494" r="12" fill="#ece3d4" /><path d="M370 404 L382 404 L382 436 L414 436 L414 448 L382 448 L382 480 L370 480 L370 448 L338 448 L338 436 L370 436 Z" fill="#2E2A26" /><circle cx="452" cy="416" r="12" fill="#C7AD72" /><circle cx="476" cy="440" r="12" fill="#C7AD72" /><circle cx="428" cy="440" r="12" fill="#C7AD72" /><circle cx="452" cy="464" r="12" fill="#C7AD72" /><circle cx="380" cy="516" r="9" fill="#a2957e" /><circle cx="420" cy="516" r="9" fill="#a2957e" /><rect x="364" y="548" width="72" height="14" rx="7" fill="#776d5c" /><ellipse cx="400" cy="706" rx="180" ry="16" fill="#2E2A26" opacity=".1"/></g>
+<text x="58" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" letter-spacing="8" fill="#2E2A26" opacity=".88">TRAPO</text>
+<text x="742" y="70" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="3" fill="#2E2A26" opacity=".66">GAMING</text>
+<text x="58" y="948" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3" fill="#2E2A26" opacity=".5">TRP-GM-010 · EDITION 01</text>
+<line x1="58" y1="958" x2="742" y2="958" stroke="#2E2A26" stroke-width="1" opacity=".16"/>
+</svg>

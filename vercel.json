@@ -6,7 +6,12 @@
   "functions": {
     "api/index.mjs": {
       "maxDuration": 60,
-      "includeFiles": "server/data/creative-studio/**"
+      "includeFiles": [
+        "server/data/creative-studio/**",
+        "server/src/data/*.json",
+        "server/dist/data/**",
+        "server/data/trapo/**"
+      ]
     }
   },
   "rewrites": [

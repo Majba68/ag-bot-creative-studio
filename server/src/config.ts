@@ -31,6 +31,9 @@ export const config = {
   visionModel: clean(process.env.VISION_MODEL),
   clientOrigin: clean(process.env.CLIENT_ORIGIN) || 'http://localhost:5173',
   demoMode: clean(process.env.DEMO_MODE).toLowerCase() === 'true',
+  // TRAPO Store admin. With no ADMIN_PASSWORD the store is open for local demos.
+  adminPassword: clean(process.env.ADMIN_PASSWORD),
+  adminSecret: clean(process.env.ADMIN_SECRET),
 }
 
 export const hasMarketData = () => config.twelveDataKey.length > 0

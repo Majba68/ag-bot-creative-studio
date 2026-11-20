@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Solstice Sunglasses">
+<defs>
+<linearGradient id="trp-ac-001-main-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3e9e1"/><stop offset="1" stop-color="#dcc7b6"/></linearGradient>
+<radialGradient id="trp-ac-001-main-spot"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".68"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="trp-ac-001-main-shadow"><stop offset="0" stop-color="#2E2A26" stop-opacity=".2"/><stop offset="1" stop-color="#2E2A26" stop-opacity="0"/></radialGradient>
+<pattern id="trp-ac-001-main-grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".5" fill="#2E2A26" opacity=".07"/><circle cx="5" cy="4" r=".35" fill="#C7AD72" opacity=".11"/></pattern>
+</defs>
+<rect width="800" height="1000" fill="url(#trp-ac-001-main-bg)"/>
+<circle cx="393" cy="390" r="372" fill="url(#trp-ac-001-main-spot)"/>
+<rect width="800" height="1000" fill="url(#trp-ac-001-main-grain)" opacity=".7"/>
+<path d="M132 826 A268 268 0 0 1 668 826" fill="none" stroke="#C7AD72" stroke-width="2" opacity=".22"/><line x1="84" y1="160" x2="84" y2="840" stroke="#2E2A26" stroke-width="1" stroke-linecap="round" opacity=".09"/><line x1="716" y1="160" x2="716" y2="840" stroke="#2E2A26" stroke-width="1" stroke-linecap="round" opacity=".09"/><circle cx="690" cy="780" r="12" fill="#C7AD72" opacity=".35"/><circle cx="112" cy="236" r="8" fill="#C7AD72" opacity=".3"/>
+<ellipse cx="400" cy="826" rx="216" ry="30" fill="url(#trp-ac-001-main-shadow)"/>
+<g transform="rotate(-1.4 400 520)"><path d="M282 440 Q284 424 306 422 L372 422 Q392 426 390 448 Q386 508 342 516 Q296 512 288 466 Q280 448 282 440 Z" fill="#90695d" stroke="#C08C7C" stroke-width="8"/><path d="M398 556 Q400 540 422 538 L488 538 Q508 542 506 564 Q502 508 458 516 Q412 512 404 582 Q396 564 398 556 Z" fill="#90695d" stroke="#C08C7C" stroke-width="8"/><path d="M282 440 Q284 424 306 422 L372 422 Q392 426 390 448 Q386 508 342 516 Q296 512 288 466 Q280 448 282 440 Z" fill="#6b6a6e" opacity=".7"/><path d="M398 556 Q400 540 422 538 L488 538 Q508 542 506 564 Q502 508 458 516 Q412 512 404 582 Q396 564 398 556 Z" fill="#6b6a6e" opacity=".7"/><path d="M390 444 Q400 432 410 444" fill="none" stroke="#C08C7C" stroke-width="8"/><line x1="282" y1="436" x2="218" y2="412" stroke="#C08C7C" stroke-width="10" stroke-linecap="round" /><line x1="518" y1="436" x2="582" y2="412" stroke="#C08C7C" stroke-width="10" stroke-linecap="round" /><line x1="300" y1="440" x2="334" y2="434" stroke="#d0aa9e" stroke-width="4" stroke-linecap="round" opacity=".6"/><ellipse cx="400" cy="716" rx="172" ry="14" fill="#2E2A26" opacity=".08"/></g>
+<text x="58" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" letter-spacing="8" fill="#2E2A26" opacity=".88">TRAPO</text>
+<text x="742" y="70" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="3" fill="#2E2A26" opacity=".66">ACCESSORIES</text>
+<text x="58" y="948" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3" fill="#2E2A26" opacity=".5">TRP-AC-001 · EDITION 01</text>
+<line x1="58" y1="958" x2="742" y2="958" stroke="#2E2A26" stroke-width="1" opacity=".16"/>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Aperture Mirrorless Camera">
+<defs>
+<linearGradient id="trp-el-004-main-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e0ded9"/><stop offset="1" stop-color="#b9b3a7"/></linearGradient>
+<radialGradient id="trp-el-004-main-spot"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".68"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="trp-el-004-main-shadow"><stop offset="0" stop-color="#2E2A26" stop-opacity=".2"/><stop offset="1" stop-color="#2E2A26" stop-opacity="0"/></radialGradient>
+<pattern id="trp-el-004-main-grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".5" fill="#2E2A26" opacity=".07"/><circle cx="5" cy="4" r=".35" fill="#C7AD72" opacity=".11"/></pattern>
+</defs>
+<rect width="800" height="1000" fill="url(#trp-el-004-main-bg)"/>
+<circle cx="423" cy="405" r="372" fill="url(#trp-el-004-main-spot)"/>
+<rect width="800" height="1000" fill="url(#trp-el-004-main-grain)" opacity=".7"/>
+<path d="M132 826 A268 268 0 0 1 668 826" fill="none" stroke="#C7AD72" stroke-width="2" opacity=".22"/><line x1="84" y1="160" x2="84" y2="840" stroke="#2E2A26" stroke-width="1" stroke-linecap="round" opacity=".09"/><line x1="716" y1="160" x2="716" y2="840" stroke="#2E2A26" stroke-width="1" stroke-linecap="round" opacity=".09"/><circle cx="690" cy="780" r="12" fill="#C7AD72" opacity=".35"/><circle cx="112" cy="236" r="8" fill="#C7AD72" opacity=".3"/>
+<ellipse cx="400" cy="826" rx="216" ry="30" fill="url(#trp-el-004-main-shadow)"/>
+<g transform="rotate(1.2 400 520)"><rect x="216" y="372" width="368" height="270" rx="22" fill="#3A3D42" stroke="#202224" stroke-width="3"/><rect x="236" y="392" width="328" height="54" rx="10" fill="#2c2e32" /><rect x="256" y="596" width="80" height="22" rx="6" fill="#9d9ea1" /><circle cx="400" cy="510" r="112" fill="#2c2e32" /><circle cx="400" cy="510" r="90" fill="#C7AD72" /><circle cx="400" cy="510" r="70" fill="#263F57" /><circle cx="400" cy="510" r="42" fill="#202224" /><circle cx="400" cy="510" r="18" fill="#6d6f73" opacity=".8"/><rect x="488" y="404" width="60" height="28" rx="6" fill="#9d9ea1" /><ellipse cx="400" cy="724" rx="176" ry="16" fill="#2E2A26" opacity=".09"/></g>
+<text x="58" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" letter-spacing="8" fill="#2E2A26" opacity=".88">TRAPO</text>
+<text x="742" y="70" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="3" fill="#2E2A26" opacity=".66">ELECTRONICS</text>
+<text x="58" y="948" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3" fill="#2E2A26" opacity=".5">TRP-EL-004 · EDITION 01</text>
+<line x1="58" y1="958" x2="742" y2="958" stroke="#2E2A26" stroke-width="1" opacity=".16"/>
+</svg>

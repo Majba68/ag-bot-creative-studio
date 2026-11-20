@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Titan Docking Station">
+<defs>
+<linearGradient id="trp-gm-009-lifestyle-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4e8e0"/><stop offset="1" stop-color="#e0ccba"/></linearGradient>
+<radialGradient id="trp-gm-009-lifestyle-spot"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".68"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="trp-gm-009-lifestyle-shadow"><stop offset="0" stop-color="#2E2A26" stop-opacity=".2"/><stop offset="1" stop-color="#2E2A26" stop-opacity="0"/></radialGradient>
+<pattern id="trp-gm-009-lifestyle-grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".5" fill="#2E2A26" opacity=".07"/><circle cx="5" cy="4" r=".35" fill="#C7AD72" opacity=".11"/></pattern>
+</defs>
+<rect width="800" height="1000" fill="url(#trp-gm-009-lifestyle-bg)"/>
+<circle cx="395" cy="426" r="372" fill="url(#trp-gm-009-lifestyle-spot)"/>
+<rect width="800" height="1000" fill="url(#trp-gm-009-lifestyle-grain)" opacity=".7"/>
+<text x="400" y="556" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="700" letter-spacing="4" fill="#2E2A26" opacity=".055">GAMING</text><path d="M96 820 A304 304 0 0 1 704 820" fill="none" stroke="#C7AD72" stroke-width="2" opacity=".4"/><path d="M150 820 A250 250 0 0 1 650 820" fill="none" stroke="#C7AD72" stroke-width="1.5" opacity=".3"/><circle cx="160" cy="300" r="58" fill="none" stroke="#C7AD72" stroke-width="2" opacity=".35"/><circle cx="660" cy="250" r="34" fill="none" stroke="#2E2A26" stroke-width="2" opacity=".15"/><line x1="96" y1="690" x2="250" y2="690" stroke="#C7AD72" stroke-width="2" stroke-linecap="round" opacity=".45"/><line x1="550" y1="730" x2="704" y2="730" stroke="#C7AD72" stroke-width="2" stroke-linecap="round" opacity=".45"/>
+<ellipse cx="400" cy="826" rx="216" ry="30" fill="url(#trp-gm-009-lifestyle-shadow)"/>
+<g transform="translate(184 171.5) scale(0.736)"><rect x="242" y="412" width="316" height="186" rx="18" fill="#B4573A" stroke="#633020" stroke-width="3"/><rect x="266" y="436" width="268" height="92" rx="10" fill="#87412c" /><line x1="288" y1="482" x2="512" y2="482" stroke="#C7AD72" stroke-width="3" stroke-linecap="round" opacity=".8"/><rect x="288" y="552" width="42" height="16" rx="4" fill="#daab9d" /><rect x="344" y="552" width="42" height="16" rx="4" fill="#daab9d" /><circle cx="492" cy="560" r="10" fill="#C7AD72" /><rect x="360" y="598" width="80" height="16" rx="6" fill="#87412c" /><ellipse cx="400" cy="706" rx="180" ry="16" fill="#2E2A26" opacity=".1"/></g>
+<text x="58" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" letter-spacing="8" fill="#2E2A26" opacity=".88">TRAPO</text>
+<text x="742" y="70" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="3" fill="#2E2A26" opacity=".66">GAMING</text>
+<text x="58" y="948" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3" fill="#2E2A26" opacity=".5">TRP-GM-009 · EDITION 01</text>
+<line x1="58" y1="958" x2="742" y2="958" stroke="#2E2A26" stroke-width="1" opacity=".16"/>
+</svg>

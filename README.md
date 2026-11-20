@@ -1,6 +1,44 @@
-# AG BOT — Advanced AI Trading Analysis Platform
+# TRAPO — Discover Your Style. Explore Everything.
 
-A premium, responsive trading-analysis workspace with a real market-data provider, a transparent technical-analysis engine, optional AI explanations/chat/screenshot vision, and **no automatic trading**.
+TRAPO is the premium multi-category storefront in this repository. It includes an interactive drag-and-select showcase, a 126-product demonstration catalogue across nine categories, product detail pages, search/filters/sorting, wishlist, cart and a clearly labelled checkout demonstration, collections, and a full admin dashboard. The earlier trading-analysis application is preserved under `client/_legacy/`, and its original documentation is retained below for reference.
+
+## TRAPO quick start
+
+```bash
+npm install
+npm run dev
+```
+
+- Storefront: http://localhost:5173
+- Store API: http://localhost:3001/api/store
+- Admin dashboard: http://localhost:5173/admin
+
+The client talks to `/api/store` first. If the API is unavailable, it falls back to the bundled sample catalogue and `localStorage` so the storefront and admin remain usable as an offline demo. Every generated item is flagged as a sample product in the UI.
+
+### Catalogue
+
+- `scripts/generate-products.mjs` deterministically generates the 126 sample products, 6 collections and unique SVG artwork.
+- Bundled seeds live in `client/src/data/` and `server/src/data/`.
+- API persistence writes to `server/data/trapo/products.json`, `collections.json` and `uploads/`. On a read-only filesystem the API switches to in-memory storage and reports `storageMode: "memory"` from `/api/store/meta`.
+
+### Admin
+
+Open `/admin`. With no `ADMIN_PASSWORD` configured, local/demo mode signs in automatically. In deployed or protected mode:
+
+1. Set `ADMIN_PASSWORD` (and ideally `ADMIN_SECRET`) in `server/.env`.
+2. Restart the API. `/api/store/meta` then reports `authRequired: true`.
+3. Sign in from the admin dashboard. The client calls `POST /api/store/admin/login` and sends the returned bearer token for 12 hours.
+4. Unauthenticated catalogue mutations return `401 Unauthorized`.
+
+The dashboard supports product and collection create/edit/delete, image URL entry and image upload (max 8 MB), price/stock/description/category management, JSON import/export, and a one-click `DELETE ALL DEMONSTRATION PRODUCTS` action. Deleting demos is permanent in API mode; the `Restore sample data` button is only available in local browser mode. Always keep a backup of `server/data/trapo/` before bulk changes.
+
+### Checkout honesty
+
+Checkout is a **demonstration only**. It creates a local confirmation number, never takes payment, never creates real orders and never ships goods.
+
+## Original AG BOT documentation (legacy)
+
+The sections below describe the pre-existing trading-analysis application. Its source was moved to `client/_legacy/` when TRAPO was built; the server-side trading APIs remain in place.
 
 ## Important disclaimer
 
@@ -49,6 +87,8 @@ Edit `server/.env`:
 | `VISION_MODEL` | for Vision Analyzer | Required for the new tab. Must be an explicitly configured vision-capable model, e.g. `gemini-3.5-flash-lite` (free tier), `gpt-4o` or `claude-3-5-sonnet-latest`. No default is assumed. |
 | `DEMO_MODE` | no | Default `false`. Set to `true` only to test the interface with locally generated simulated candles. Every screen is clearly labelled and no simulated value is ever presented as a real price. |
 | `CLIENT_ORIGIN` | no | Dev origin for CORS (default `http://localhost:5173`) |
+| `ADMIN_PASSWORD` | for TRAPO admin auth | Protects all `/api/store` catalogue mutations. Blank = open local/demo mode. |
+| `ADMIN_SECRET` | no | Admin token signing secret. Defaults to a hash of `ADMIN_PASSWORD`; set a long random value in production. |
 | `CREATIVE_IMAGE_PROVIDER` | no | Primary image provider. Supported: `gemini` (default) or `openai`. |
 | `CREATIVE_IMAGE_API_KEY` | no | Separate server-only Gemini key for Creative Studio image generation. Falls back to `LLM_API_KEY`. |
 | `CREATIVE_IMAGE_MODEL` | no | Officially supported Gemini image model. Default `gemini-nano-banana-2.1` (Nano Banana 2.1). Alternatives: `gemini-3.1-flash-lite-image`, `gemini-3.1-flash-image`, `gemini-3-pro-image`, `gemini-2.5-flash-image`. |
@@ -221,8 +261,10 @@ Dark `#050505` backgrounds, blood-red `#8B0000` accents, fog, blinking eyes, sca
 ## Project layout
 
 ```
-client/  React + TypeScript + Vite frontend
-server/  Express + TypeScript API (market data, analysis, assistant, creative studio)
+client/src/       TRAPO React + TypeScript + Vite storefront and admin
+client/_legacy/   Original trading-analysis frontend (preserved)
+server/           Express + TypeScript API (TRAPO store plus legacy market/analysis APIs)
+scripts/          Deterministic TRAPO catalogue/artwork generator
 ```
 
 ## AG AI CREATIVE STUDIO

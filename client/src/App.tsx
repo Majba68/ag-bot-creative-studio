@@ -1,113 +1,92 @@
-import { Crosshair, LayoutDashboard, ScanEye, SlidersHorizontal, Sparkles, TrendingUp } from 'lucide-react'
-import { AgCreativeStudio } from './components/AgCreativeStudio'
-import { Dashboard } from './components/Dashboard'
-import { DirectionPro } from './components/DirectionPro'
-import { FireLiveCenter, FireTabIcon } from './components/FireLiveCenter'
-import { HorrorTabIcon, HorrorVisionTracking } from './components/HorrorVisionTracking'
-import { Intro } from './components/Intro'
-import { SmartChartSetupAnalyzer } from './components/SmartChartSetupAnalyzer'
-import { SupportResistanceAnalyzer } from './components/SupportResistanceAnalyzer'
-import { VisionAnalyzer } from './components/VisionAnalyzer'
-import { useApp } from './state'
+import { useEffect } from 'react'
+import { CheckCircle2, Info, XCircle } from 'lucide-react'
+import { useRoute } from './router'
+import { useStore } from './store'
+import { Header } from './components/Header'
+import { Footer } from './components/Footer'
+import { Home } from './components/Home'
+import { ShopPage } from './components/ShopPage'
+import { ProductPage } from './components/ProductPage'
+import { CartDrawer, CartPage, CheckoutPage } from './components/Cart'
+import { AdminPage } from './components/AdminPage'
+import { AboutPage, CollectionDetailPage, CollectionsPage, NotFoundPage, WishlistPage } from './components/Pages'
+
+function LoadingScreen() {
+  return (
+    <div className="loading-screen">
+      <img src="/brand/trapo-mascot.jpeg" alt="TRAPO" />
+      <span className="loading-screen__word">TRAPO<span>.</span></span>
+      <p>Discover your style.</p>
+      <div className="loading-screen__bar"><i /></div>
+    </div>
+  )
+}
+
+function Toasts() {
+  const { toasts, dismissToast } = useStore()
+  return (
+    <div className="toast-stack" aria-live="polite">
+      {toasts.map((toast) => (
+        <div key={toast.id} className={`toast toast--${toast.tone}`}>
+          {toast.tone === 'success' ? <CheckCircle2 size={17} /> : toast.tone === 'error' ? <XCircle size={17} /> : <Info size={17} />}
+          <span>{toast.message}</span>
+          <button type="button" aria-label="Dismiss" onClick={() => dismissToast(toast.id)}><XCircle size={14} /></button>
+        </div>
+      ))}
+    </div>
+  )
+}
 
 export default function App() {
-  const { view, activeTab, setActiveTab } = useApp()
+  const route = useRoute()
+  const { loading } = useStore()
+  const path = route.path
 
-  if (view === 'intro') return <Intro />
+  useEffect(() => {
+    if (route.hash) {
+      window.setTimeout(() => document.querySelector(route.hash)?.scrollIntoView({ behavior: 'smooth' }), 120)
+    } else {
+      window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior })
+    }
+  }, [path, route.hash])
+
+  useEffect(() => {
+    const titles: Record<string, string> = {
+      '/': 'TRAPO — Discover Your Style. Explore Everything.',
+      '/shop': 'Shop All — TRAPO',
+      '/cart': 'Your Bag — TRAPO',
+      '/checkout': 'Checkout — TRAPO',
+      '/admin': 'Admin Dashboard — TRAPO',
+      '/collections': 'Collections — TRAPO',
+      '/about': 'Our Story — TRAPO',
+      '/wishlist': 'Wishlist — TRAPO',
+    }
+    document.title = titles[path] || (path.startsWith('/product/') ? 'Product — TRAPO' : 'TRAPO')
+  }, [path])
+
+  if (loading) return <><LoadingScreen /><Toasts /></>
+
+  const isAdmin = path === '/admin'
+  let page
+  if (path === '/') page = <Home />
+  else if (path === '/shop') page = <ShopPage />
+  else if (path.startsWith('/product/')) page = <ProductPage id={decodeURIComponent(path.slice('/product/'.length))} />
+  else if (path === '/cart') page = <CartPage />
+  else if (path === '/checkout') page = <CheckoutPage />
+  else if (path === '/admin') page = <AdminPage />
+  else if (path === '/collections') page = <CollectionsPage />
+  else if (path.startsWith('/collections/')) page = <CollectionDetailPage slug={decodeURIComponent(path.slice('/collections/'.length))} />
+  else if (path === '/about') page = <AboutPage />
+  else if (path === '/wishlist') page = <WishlistPage />
+  else page = <NotFoundPage />
 
   return (
-    <div className="app-with-tabs">
-      <nav className="main-tabs" aria-label="Main navigation">
-        <div className="main-tabs-inner">
-          <button
-            type="button"
-            className={`main-tab${activeTab === 'dashboard' ? ' active' : ''}`}
-            onClick={() => setActiveTab('dashboard')}
-            aria-current={activeTab === 'dashboard' ? 'page' : undefined}
-          >
-            <LayoutDashboard size={16} />
-            <span>Trading Dashboard</span>
-          </button>
-          <button
-            type="button"
-            className={`main-tab vision${activeTab === 'vision' ? ' active' : ''}`}
-            onClick={() => setActiveTab('vision')}
-            aria-current={activeTab === 'vision' ? 'page' : undefined}
-          >
-            <ScanEye size={16} />
-            <span>AG AI VISION ANALYZER</span>
-          </button>
-          <button
-            type="button"
-            className={`main-tab support-resistance${activeTab === 'support-resistance' ? ' active' : ''}`}
-            onClick={() => setActiveTab('support-resistance')}
-            aria-current={activeTab === 'support-resistance' ? 'page' : undefined}
-          >
-            <TrendingUp size={16} />
-            <span>AG AI SUPPORT &amp; RESISTANCE ANALYZER</span>
-          </button>
-          <button
-            type="button"
-            className={`main-tab smart-chart${activeTab === 'smart-chart-setup' ? ' active' : ''}`}
-            onClick={() => setActiveTab('smart-chart-setup')}
-            aria-current={activeTab === 'smart-chart-setup' ? 'page' : undefined}
-          >
-            <SlidersHorizontal size={16} />
-            <span>AG AI SMART CHART SETUP ANALYZER</span>
-          </button>
-          <button
-            type="button"
-            className={`main-tab direction-pro${activeTab === 'direction-pro' ? ' active' : ''}`}
-            onClick={() => setActiveTab('direction-pro')}
-            aria-current={activeTab === 'direction-pro' ? 'page' : undefined}
-          >
-            <Crosshair size={16} />
-            <span>AG AI SMART DIRECTION PRO</span>
-          </button>
-          <button
-            type="button"
-            className={`main-tab fire-live-center${activeTab === 'fire-live-center' ? ' active' : ''}`}
-            onClick={() => setActiveTab('fire-live-center')}
-            aria-current={activeTab === 'fire-live-center' ? 'page' : undefined}
-          >
-            <FireTabIcon />
-            <span>AG FIRE LIVE CENTER 🔥</span>
-          </button>
-          <button
-            type="button"
-            className={`main-tab horror-vision${activeTab === 'horror-vision' ? ' active' : ''}`}
-            onClick={() => setActiveTab('horror-vision')}
-            aria-current={activeTab === 'horror-vision' ? 'page' : undefined}
-          >
-            <HorrorTabIcon />
-            <span>HORROR VISION AI</span>
-          </button>
-          <button
-            type="button"
-            className={`main-tab creative-studio${activeTab === 'creative-studio' ? ' active' : ''}`}
-            onClick={() => setActiveTab('creative-studio')}
-            aria-current={activeTab === 'creative-studio' ? 'page' : undefined}
-          >
-            <Sparkles size={16} />
-            <span>AG AI CREATIVE STUDIO</span>
-          </button>
-        </div>
-      </nav>
-      {activeTab === 'vision'
-        ? <VisionAnalyzer />
-        : activeTab === 'support-resistance'
-          ? <SupportResistanceAnalyzer />
-          : activeTab === 'smart-chart-setup'
-            ? <SmartChartSetupAnalyzer />
-            : activeTab === 'direction-pro'
-              ? <DirectionPro />
-              : activeTab === 'fire-live-center'
-                ? <FireLiveCenter />
-                : activeTab === 'horror-vision'
-                  ? <HorrorVisionTracking />
-                  : activeTab === 'creative-studio'
-                    ? <AgCreativeStudio />
-                    : <Dashboard />}
-    </div>
+    <>
+      {!isAdmin && <Header />}
+      {page}
+      {!isAdmin && <Footer />}
+      <CartDrawer />
+      <Toasts />
+    </>
   )
 }
