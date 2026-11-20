@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Market Canvas Tote">
+<defs>
+<linearGradient id="trp-bg-006-detail-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e3ddd4"/><stop offset="1" stop-color="#c9bdac"/></linearGradient>
+<radialGradient id="trp-bg-006-detail-spot"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".68"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="trp-bg-006-detail-shadow"><stop offset="0" stop-color="#2E2A26" stop-opacity=".2"/><stop offset="1" stop-color="#2E2A26" stop-opacity="0"/></radialGradient>
+<pattern id="trp-bg-006-detail-grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".5" fill="#2E2A26" opacity=".07"/><circle cx="5" cy="4" r=".35" fill="#C7AD72" opacity=".11"/></pattern>
+</defs>
+<rect width="800" height="1000" fill="url(#trp-bg-006-detail-bg)"/>
+<circle cx="450" cy="433" r="372" fill="url(#trp-bg-006-detail-spot)"/>
+<rect width="800" height="1000" fill="url(#trp-bg-006-detail-grain)" opacity=".7"/>
+<path d="M0 830 L800 190 L800 1000 L0 1000 Z" fill="#C7AD72" opacity=".055"/><circle cx="694" cy="206" r="96" fill="none" stroke="#C7AD72" stroke-width="2" opacity=".35"/><line x1="84" y1="790" x2="716" y2="790" stroke="#2E2A26" stroke-width="1" stroke-linecap="round" opacity=".12"/>
+<ellipse cx="400" cy="826" rx="216" ry="30" fill="url(#trp-bg-006-detail-shadow)"/>
+<g transform="translate(-215.4 -254.1) scale(1.523)"><path d="M262 396 L538 396 L574 686 Q400 716 226 686 Z" fill="#8C7B6B" stroke="#4d443b" stroke-width="3"/><path d="M326 400 Q326 288 400 288 Q474 288 474 400 L452 400 Q452 316 400 316 Q348 316 348 400 Z" fill="none" stroke="#695c50" stroke-width="20"/><path d="M262 396 L538 396 L532 428 L268 428 Z" fill="#695c50" opacity=".7"/><rect x="370" y="552" width="60" height="20" rx="6" fill="#C7AD72" /><line x1="276" y1="452" x2="284" y2="670" stroke="#c6bdb5" stroke-width="2" stroke-linecap="round" opacity=".25"/><line x1="300" y1="452" x2="308" y2="670" stroke="#c6bdb5" stroke-width="2" stroke-linecap="round" opacity=".25"/><line x1="324" y1="452" x2="332" y2="670" stroke="#c6bdb5" stroke-width="2" stroke-linecap="round" opacity=".25"/><line x1="348" y1="452" x2="356" y2="670" stroke="#c6bdb5" stroke-width="2" stroke-linecap="round" opacity=".25"/><line x1="372" y1="452" x2="380" y2="670" stroke="#c6bdb5" stroke-width="2" stroke-linecap="round" opacity=".25"/><line x1="396" y1="452" x2="404" y2="670" stroke="#c6bdb5" stroke-width="2" stroke-linecap="round" opacity=".25"/><line x1="420" y1="452" x2="428" y2="670" stroke="#c6bdb5" stroke-width="2" stroke-linecap="round" opacity=".25"/><line x1="444" y1="452" x2="452" y2="670" stroke="#c6bdb5" stroke-width="2" stroke-linecap="round" opacity=".25"/><line x1="468" y1="452" x2="476" y2="670" stroke="#c6bdb5" stroke-width="2" stroke-linecap="round" opacity=".25"/><line x1="492" y1="452" x2="500" y2="670" stroke="#c6bdb5" stroke-width="2" stroke-linecap="round" opacity=".25"/><line x1="516" y1="452" x2="524" y2="670" stroke="#c6bdb5" stroke-width="2" stroke-linecap="round" opacity=".25"/><ellipse cx="400" cy="716" rx="178" ry="16" fill="#2E2A26" opacity=".09"/></g>
+<text x="58" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" letter-spacing="8" fill="#2E2A26" opacity=".88">TRAPO</text>
+<text x="742" y="70" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="3" fill="#2E2A26" opacity=".66">BAGS</text>
+<text x="58" y="948" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3" fill="#2E2A26" opacity=".5">TRP-BG-006 · EDITION 01</text>
+<line x1="58" y1="958" x2="742" y2="958" stroke="#2E2A26" stroke-width="1" opacity=".16"/>
+</svg>

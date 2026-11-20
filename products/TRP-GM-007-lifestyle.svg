@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Orbit Racing Wheel">
+<defs>
+<linearGradient id="trp-gm-007-lifestyle-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8f3eb"/><stop offset="1" stop-color="#e4d9c7"/></linearGradient>
+<radialGradient id="trp-gm-007-lifestyle-spot"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".68"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="trp-gm-007-lifestyle-shadow"><stop offset="0" stop-color="#2E2A26" stop-opacity=".2"/><stop offset="1" stop-color="#2E2A26" stop-opacity="0"/></radialGradient>
+<pattern id="trp-gm-007-lifestyle-grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".5" fill="#2E2A26" opacity=".07"/><circle cx="5" cy="4" r=".35" fill="#C7AD72" opacity=".11"/></pattern>
+</defs>
+<rect width="800" height="1000" fill="url(#trp-gm-007-lifestyle-bg)"/>
+<circle cx="418" cy="448" r="372" fill="url(#trp-gm-007-lifestyle-spot)"/>
+<rect width="800" height="1000" fill="url(#trp-gm-007-lifestyle-grain)" opacity=".7"/>
+<text x="400" y="556" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="700" letter-spacing="4" fill="#2E2A26" opacity=".055">GAMING</text><path d="M96 820 A304 304 0 0 1 704 820" fill="none" stroke="#C7AD72" stroke-width="2" opacity=".4"/><path d="M150 820 A250 250 0 0 1 650 820" fill="none" stroke="#C7AD72" stroke-width="1.5" opacity=".3"/><circle cx="160" cy="300" r="58" fill="none" stroke="#C7AD72" stroke-width="2" opacity=".35"/><circle cx="660" cy="250" r="34" fill="none" stroke="#2E2A26" stroke-width="2" opacity=".15"/><line x1="96" y1="690" x2="250" y2="690" stroke="#C7AD72" stroke-width="2" stroke-linecap="round" opacity=".45"/><line x1="550" y1="730" x2="704" y2="730" stroke="#C7AD72" stroke-width="2" stroke-linecap="round" opacity=".45"/>
+<ellipse cx="400" cy="826" rx="216" ry="30" fill="url(#trp-gm-007-lifestyle-shadow)"/>
+<g transform="translate(185.1 197.1) scale(0.701)"><circle cx="400" cy="500" r="186" fill="none" stroke="#D8C6A8" stroke-width="42"/><circle cx="400" cy="500" r="186" fill="none" stroke="#776d5c" stroke-width="4" opacity=".5"/><path d="M400 500 L244 448 L262 424 L400 474 L538 424 L556 448 Z" fill="#D8C6A8" /><path d="M372 512 L428 512 L448 654 L352 654 Z" fill="#a2957e" /><circle cx="400" cy="500" r="58" fill="#a2957e" /><circle cx="400" cy="500" r="30" fill="#C7AD72" /><rect x="370" y="612" width="60" height="18" rx="6" fill="#ece3d4" /><ellipse cx="400" cy="706" rx="180" ry="16" fill="#2E2A26" opacity=".1"/></g>
+<text x="58" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" letter-spacing="8" fill="#2E2A26" opacity=".88">TRAPO</text>
+<text x="742" y="70" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="3" fill="#2E2A26" opacity=".66">GAMING</text>
+<text x="58" y="948" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3" fill="#2E2A26" opacity=".5">TRP-GM-007 · EDITION 01</text>
+<line x1="58" y1="958" x2="742" y2="958" stroke="#2E2A26" stroke-width="1" opacity=".16"/>
+</svg>

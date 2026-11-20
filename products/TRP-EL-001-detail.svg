@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Lumen 14 Laptop">
+<defs>
+<linearGradient id="trp-el-001-detail-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d1cfcb"/><stop offset="1" stop-color="#afa99f"/></linearGradient>
+<radialGradient id="trp-el-001-detail-spot"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".68"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="trp-el-001-detail-shadow"><stop offset="0" stop-color="#2E2A26" stop-opacity=".2"/><stop offset="1" stop-color="#2E2A26" stop-opacity="0"/></radialGradient>
+<pattern id="trp-el-001-detail-grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".5" fill="#2E2A26" opacity=".07"/><circle cx="5" cy="4" r=".35" fill="#C7AD72" opacity=".11"/></pattern>
+</defs>
+<rect width="800" height="1000" fill="url(#trp-el-001-detail-bg)"/>
+<circle cx="358" cy="425" r="372" fill="url(#trp-el-001-detail-spot)"/>
+<rect width="800" height="1000" fill="url(#trp-el-001-detail-grain)" opacity=".7"/>
+<path d="M0 830 L800 190 L800 1000 L0 1000 Z" fill="#C7AD72" opacity=".055"/><circle cx="694" cy="206" r="96" fill="none" stroke="#C7AD72" stroke-width="2" opacity=".35"/><line x1="84" y1="790" x2="716" y2="790" stroke="#2E2A26" stroke-width="1" stroke-linecap="round" opacity=".12"/>
+<ellipse cx="400" cy="826" rx="216" ry="30" fill="url(#trp-el-001-detail-shadow)"/>
+<g transform="translate(-246.5 -292.4) scale(1.592)"><path d="M236 300 L564 300 L584 612 L216 612 Z" fill="#2c2e32" stroke="#202224" stroke-width="3"/><path d="M250 316 L550 316 L566 588 L234 588 Z" fill="#6d6f73" /><path d="M274 342 L526 342 L536 562 L264 562 Z" fill="#4e5a68" opacity=".9"/><path d="M216 612 L584 612 L626 670 Q400 690 174 670 Z" fill="#3A3D42" stroke="#202224" stroke-width="3"/><rect x="344" y="626" width="112" height="12" rx="4" fill="#202224" /><line x1="324" y1="650" x2="476" y2="650" stroke="#9d9ea1" stroke-width="2" stroke-linecap="round" opacity=".5"/><ellipse cx="400" cy="724" rx="176" ry="16" fill="#2E2A26" opacity=".09"/></g>
+<text x="58" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" letter-spacing="8" fill="#2E2A26" opacity=".88">TRAPO</text>
+<text x="742" y="70" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="3" fill="#2E2A26" opacity=".66">ELECTRONICS</text>
+<text x="58" y="948" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3" fill="#2E2A26" opacity=".5">TRP-EL-001 · EDITION 01</text>
+<line x1="58" y1="958" x2="742" y2="958" stroke="#2E2A26" stroke-width="1" opacity=".16"/>
+</svg>

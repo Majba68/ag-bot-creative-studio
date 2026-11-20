@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Terra Leather Sandal">
+<defs>
+<linearGradient id="trp-sh-006-detail-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6f2e9"/><stop offset="1" stop-color="#e6dcca"/></linearGradient>
+<radialGradient id="trp-sh-006-detail-spot"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".68"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="trp-sh-006-detail-shadow"><stop offset="0" stop-color="#2E2A26" stop-opacity=".2"/><stop offset="1" stop-color="#2E2A26" stop-opacity="0"/></radialGradient>
+<pattern id="trp-sh-006-detail-grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".5" fill="#2E2A26" opacity=".07"/><circle cx="5" cy="4" r=".35" fill="#C7AD72" opacity=".11"/></pattern>
+</defs>
+<rect width="800" height="1000" fill="url(#trp-sh-006-detail-bg)"/>
+<circle cx="345" cy="430" r="372" fill="url(#trp-sh-006-detail-spot)"/>
+<rect width="800" height="1000" fill="url(#trp-sh-006-detail-grain)" opacity=".7"/>
+<path d="M0 830 L800 190 L800 1000 L0 1000 Z" fill="#C7AD72" opacity=".055"/><circle cx="694" cy="206" r="96" fill="none" stroke="#C7AD72" stroke-width="2" opacity=".35"/><line x1="84" y1="790" x2="716" y2="790" stroke="#2E2A26" stroke-width="1" stroke-linecap="round" opacity=".12"/>
+<ellipse cx="400" cy="826" rx="216" ry="30" fill="url(#trp-sh-006-detail-shadow)"/>
+<g transform="translate(-223.2 -276.1) scale(1.544)"><path d="M208 668 Q220 694 258 698 L548 698 Q590 692 584 666 L562 652 L232 652 Z" fill="#7f796e" /><path d="M236 660 Q242 626 292 620 L520 620 Q558 630 566 660 Z" fill="#E6DCC8" stroke="#7f796e" stroke-width="2"/><path d="M286 624 Q320 566 366 574 L382 624 Z" fill="#ede5d6" stroke="#7f796e" stroke-width="2"/><path d="M430 622 Q462 580 504 588 L520 632 L492 638 Q470 612 446 632 Z" fill="#ede5d6" stroke="#7f796e" stroke-width="2"/><rect x="322" y="646" width="74" height="16" rx="6" fill="#C7AD72" /><ellipse cx="400" cy="710" rx="190" ry="18" fill="#2E2A26" opacity=".1"/></g>
+<text x="58" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" letter-spacing="8" fill="#2E2A26" opacity=".88">TRAPO</text>
+<text x="742" y="70" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="3" fill="#2E2A26" opacity=".66">SHOES</text>
+<text x="58" y="948" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3" fill="#2E2A26" opacity=".5">TRP-SH-006 · EDITION 01</text>
+<line x1="58" y1="958" x2="742" y2="958" stroke="#2E2A26" stroke-width="1" opacity=".16"/>
+</svg>
