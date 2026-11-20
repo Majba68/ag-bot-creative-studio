@@ -1,0 +1,37 @@
+{
+  "profiles": [
+    {
+      "businessName": "majba ai",
+      "contact1": "01317672033",
+      "contact2": "01888614223",
+      "whatsapp": "01811149262",
+      "website": "majba.com",
+      "email": "majbako1221@gmail.com",
+      "address": "",
+      "facebook": "",
+      "instagram": "",
+      "services": "poster edit",
+      "description": "amra arkum poster toire kore.",
+      "brandColors": "",
+      "slogan": "",
+      "logoAssetId": "",
+      "teamPhotoAssetId": "d4216882-e1cf-4181-b325-8239691eb5b7.png",
+      "id": "bd300268-ba64-40ba-a8c2-ca9069a73ac2",
+      "createdAt": "2026-11-20T07:17:34.262Z",
+      "updatedAt": "2026-11-20T07:18:22.764Z"
+    }
+  ],
+  "projects": [],
+  "assets": {
+    "81f20e0b-28d8-49e9-9b83-c7fa7602b08f.png": {
+      "mime": "image/png",
+      "name": "Screenshot 2026-11-19 163433.png",
+      "bytes": 319186
+    },
+    "d4216882-e1cf-4181-b325-8239691eb5b7.png": {
+      "mime": "image/png",
+      "name": "Screenshot 2026-11-19 163433.png",
+      "bytes": 319186
+    }
+  }
+}
